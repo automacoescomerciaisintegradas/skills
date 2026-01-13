@@ -9,6 +9,8 @@ Este workflow deve ser utilizado semanalmente para analisar as últimas notícia
 1. **Acesso às Fontes**: Acesse as seguintes URLs para coletar notícias recentes:
    - **PainelWP**: [https://www.painelwp.com.br/newsletter-wordpress/](https://www.painelwp.com.br/newsletter-wordpress/)
    - **WordPress News**: [https://wordpress.org/news/](https://wordpress.org/news/)
+   - **Blog da Shopee **: [https://shopee.com.br/blog/news/](https://shopee.com.br/blog/news/)
+   - **Shopee Brasil**: [https://shopee.com.br/news/](https://shopee.com.br//news/)
 
 2. **Análise de Conteúdo**:
    - Identifique os tópicos mais relevantes, lançamentos de versões, eventos e dicas de desenvolvimento mencionadas nos sites acima.
