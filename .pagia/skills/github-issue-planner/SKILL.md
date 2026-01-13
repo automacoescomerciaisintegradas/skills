@@ -7,7 +7,7 @@ description: Analisa as issues do GitHub e as classifica por dificuldade.
 Este workflow deve ser utilizado para triagem e planejamento de novas funcionalidades ou correções a partir das issues do GitHub.
 
 1. **Acesso às Fontes**: Acesse a lista de issues do repositório:
-   - [https://github.com/fellyph/php-exercise-playground/issues](https://github.com/fellyph/php-exercise-playground/issues)
+   - [https://github.com/automacoescomerciaisintegradas/PAGIA/issues](https://github.com/automacoescomerciaisintegradas/skills/issues)
 
 2. **Análise de Issues**:
    - Para cada issue aberta, analise a descrição e os requisitos.
