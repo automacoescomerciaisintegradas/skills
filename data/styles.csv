@@ -1,0 +1,6 @@
+Style Category,Type,Keywords,Primary Colors,Effects & Animation,Best For,Performance,Accessibility,Framework Compatibility,Complexity
+Minimalism,UI,"clean, simple, white space, typography",#FFFFFF #000000,Subtle fades,SaaS,High,High,All,Low
+Glassmorphism,UI,"glass, transparency, blur, frosted",#FFFFFF33 #00000033,Blur transitions,Marketing,Medium,Medium,Tailwind/CSS,Medium
+Neumorphism,UI,"soft shadows, 3D, tactile",#E0E0E0 #BEBEBE,Depressed states,Dashboards,Medium,Low,CSS,High
+Dark Mode,UI,"dark, night, contrast, low light",#121212 #BB86FC,None,Developer Tools,High,High,All,Medium
+Aurora,UI,"gradient, mesh, liquid, vibrant",#FF00A5 #019CAD,Mesh animations,Hero sections,Medium,Medium,CSS/Canvas,High

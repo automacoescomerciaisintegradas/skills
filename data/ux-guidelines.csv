@@ -1,0 +1,6 @@
+Category,Issue,Platform,Description,Do,Don't,Code Example Good,Code Example Bad,Severity
+Navigation,Hidden Menu,Web,Hamburger menus on desktop hide critical navigation.,Use a visible sidebar or top navigation.,Hide all links behind a hamburger icon.,<nav><ul><li>Link</li></ul></nav>,<button>Menu</button>,Medium
+Accessibility,Low Contrast,All,Text color is too similar to background color.,Check contrast ratios (WCAG AA).,Use grey text on white backgrounds.,color: #757575; (on white),color: #D3D3D3; (on white),High
+Performance,LCP Image Loading,Web,Large images slow down the perceived load time.,Use priority hints for heroes.,Lazy load the main hero image.,<img fetchpriority="high" src="hero.jpg">,<img loading="lazy" src="hero.jpg">,High
+Feedback,Missing States,Web,Buttons don't change on hover or click.,Add hover and focus states.,Leave buttons static.,button:hover { opacity: 0.8; },button { ... },Low
+Forms,Invisible Labels,All,Placeholders used as labels disappear on typing.,Use floating or visible labels.,Use only placeholders.,<label>Email</label><input placeholder="Email">,<input placeholder="Email">,Medium

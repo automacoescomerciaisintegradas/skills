@@ -1,0 +1,6 @@
+Product Type,Keywords,Primary (Hex),Secondary (Hex),CTA (Hex),Background (Hex),Text (Hex),Border (Hex),Notes
+Fintech,"trust, professional, blue, clean",#0052FF,#091E42,#0052FF,#FFFFFF,#172B4D,#DFE1E6,Use strong blue for primary actions.
+Healthcare,"calm, safe, green, trust",#007E7A,#E6F4F1,#007E7A,#FFFFFF,#333333,#D1E9E7,Keep it light and airy.
+Crypto,"dark, vibrant, neon, tech",#FF00A5,#019CAD,#FF00A5,#0B0E11,#EAECEF,#2B3139,High contrast neon on dark backgrounds.
+E-commerce,"warm, inviting, orange, buy",#FF9900,#232F3E,#FF9900,#FFFFFF,#111111,#CCCCCC,Focus on the CTA color.
+SaaS,"modern, flexible, purple, grow",#6D28D9,#F3E8FF,#6D28D9,#FFFFFF,#111111,#E5E7EB,Clean and scalable palette.
