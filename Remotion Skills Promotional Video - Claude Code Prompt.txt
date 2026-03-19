@@ -1,0 +1,171 @@
+Remotion Skills Promotional Video - CleudoCode Prompt
+
+#### **Slide 1: A Capa (O Gancho)**
+*   **Texto na Imagem:** TODA REVOLUÇÃO COMEÇA COM UM CLIQUE.
+    *   *Subtítulo menor:* O fim da era da fama e o início do Império Invisível.
+*   **Legenda:** Você sabia que o maior ativo digital hoje não é o seu rosto, mas a sua estratégia? Um clique é tudo que precisa para desencadear a maior mudança da sua vida. Arraste para o lado e descubra o Manifesto do Criador Invisível. 👉
+*   **Sugestão Visual:** Fundo escuro e tecnológico (preto/azul neon). No centro, uma mão em *close-up* prestes a clicar em um botão brilhante ou na tela de um celular, gerando uma onda de choque digital.
+*   **Gatilho Mental:** Curiosidade e Novidade.
+
+
+Remotion Skills Promotional Video - CleudoCode Prompt
+Create a 32-second promotional video for Remotion Skills with the following scenes. Resolution: 1920x1080,
+30fps.
+
+SCENE 1: Intro/BubbleMenu (3.0s - 90 frames)
+Background: Solid black ( #000000 )
+Elements: Animated pill-shaped badges with text inside. Each pill has rounded corners (border-radius: 9999px),
+bold white text, and a solid color background.
+Animation sequence:
+Frame 0-45 (0-1.5s): Three pills appear with scale animation (0 → 1 with spring bounce):
+"NO" - cyan ( #22D3EE )
+"video" - green ( #22C55E )
+"skills?" - orange ( #F97316 )
+Arranged in a slightly curved horizontal line, each pill has subtle random rotation (-5 to +5 degrees)
+Frame 45-90 (1.5-3.0s): Two more pills appear below with same scale animation:
+"no" - blue ( #3B82F6 )
+"problem." - purple ( #A855F7 )
+Positioned to complete the sentence layout
+
+Transition out: Fade out over 15 frames (0.5s)
+
+SCENE 2: CapCut Problems (3.3s - 100 frames)
+Background: Light gray ( #F5F5F5 )
+Elements:
+1. Headline text: "Manual editing sucks"
+Black color, bold weight, large size (~64px)
+Positioned upper-center
+2. Screenshot mockup of video editing software (CapCut/Premiere style)
+Shows complex timeline with multiple video/audio tracks
+Applied 3D perspective effect: rotateX(-8deg) with perspective: 1000px
+Soft drop shadow: 0 25px 50px rgba(0,0,0,0.15)
+
+Positioned center-bottom
+
+Animation sequence:
+Frame 0-30 (0-1s): Headline fades in and slides down from -20px
+Frame 30-100 (1-3.3s): Screenshot slides up from bottom with fade-in, settles into 3D perspective
+position
+Transition out: Fade out over 15 frames (0.5s)
+
+SCENE 3: What If (3.1s - 92 frames)
+Background: Light gray ( #F5F5F5 ) with floating colorful particles
+Particles:
+Small dots/squares (4-8px) in colors: cyan, green, orange, pink, purple
+Scattered across the background
+Gentle floating drift animation throughout the scene
+Elements: Text centered on screen, two lines:
+Line 1: "Make videos in" - black, medium weight
+Line 2: "CleudoCode" - black, bold weight, slightly larger
+Animation sequence:
+Frame 0-45 (0-1.5s): "Make videos in" fades in
+Frame 45-92 (1.5-3.1s): "CleudoCode" fades in below
+Particles drift slowly throughout entire scene
+Transition out: Fade out over 15 frames (0.5s)
+
+SCENE 4: Remotion Skills Logo (3.4s - 101 frames)
+Background: Vibrant purple/blue gradient ( #4F46E5 → #7C3AED ), slight animated gradient movement
+Elements:
+1. Remotion logo (white play triangle icon)
+2. Text "remotion Skills" - white, bold
+3. Subtitle "Create videos with prompts." - white, smaller, 70% opacity
+
+Animation sequence:
+Frame 0-45 (0-1.5s): Logo and "remotion Skills" appear together with scale animation (0.8 → 1) and
+fade-in, using spring easing
+Frame 45-101 (1.5-3.4s): Subtitle fades in below
+Layout: All elements centered vertically and horizontally
+Transition out: Fade out over 15 frames (0.5s)
+
+SCENE 5: Claude Demo (8.5s - 255 frames)
+This scene has 3 sub-parts showing the workflow. Background is light gray ( #F5F5F5 ) throughout.
+SUB-PART 5A: "Describe what you want" (Frame 0-85, 0-2.8s)
+Elements:
+1. Four pill badges at top: "describe" "what" "you" "want"
+Style: white/light gray background with dark border, black text, rounded corners
+Arranged horizontally with small gaps
+2. CleudoCode mockup window below:
+Dark background ( #1E1E1E or similar)
+Window header with colored dots (red, yellow, green) and title "CleudoCode"
+Applied 3D perspective: rotateX(-10deg), perspective: 1000px
+Soft drop shadow
+3. Inside mockup - chat interface:
+User message bubble with typewriter effect: "Create a video for my p..." (gets cut off)
+
+Animation:
+Frame 0-30: Pills appear sequentially left to right with scale bounce
+Frame 30-85: Mockup slides up, text types out character by character
+
+SUB-PART 5B: "Claude writes the code" (Frame 85-170, 2.8-5.6s)
+Elements:
+1. Four pill badges at top: "claude" "writes" "the" "code"
+Same style as before
+2. CleudoCode mockup showing:
+"Claude" response section
+
+"Thinking... Creating Remotion composition..." text
+Code block appearing:
+
+Animation:
+Frame 85-100: Previous pills fade out, new pills fade in
+Frame 100-170: Code appears line by line with typewriter effect
+
+SUB-PART 5C: "Remotion renders your video" (Frame 170-255, 5.6-8.5s)
+Elements:
+1. Four pill badges at top: "remotion" "renders" "your" "video"
+Same style as before
+2. CleudoCode mockup showing:
+Completed code visible
+Success banner at bottom: green background ( #22C55E ), white checkmark icon, text "Your
+video is ready!"
+
+Animation:
+Frame 170-185: Previous pills fade out, new pills fade in
+Frame 185-220: Success banner slides up from bottom of mockup with fade-in
+Frame 220-255: Hold on final state, subtle pulse/glow on success banner
+Transition out: Fade out over 15 frames (0.5s)
+
+SCENE 7: Terminal/CTA (9.8s - 294 frames)
+Background: Light gray ( #F5F5F5 )
+Elements:
+1. Headline: "Try it now"
+Black, bold, large (~56px)
+Positioned upper-center
+2. Terminal window mockup:
+export const ProductVideo = () => {
+return <AbsoluteFill>...</AbsoluteFill>
+}
+
+Light/white background inside terminal
+Window header with colored dots (red, yellow, green) and title "Terminal"
+Applied 3D perspective: rotateX(-12deg), perspective: 1000px
+Soft drop shadow: 0 30px 60px rgba(0,0,0,0.12)
+3. Inside terminal:
+Prompt: "~ $" in gray/green
+Command typed out: "npx skills add remotion-dev/skills"
+Blinking cursor (black rectangle, blinks every 0.5s)
+4. Small text below terminal:
+"Works with npm, yarn, pnpm, and bun"
+Gray color (#666), small size
+
+Animation sequence:
+Frame 0-60 (0-2s): "Try it now" fades in and settles
+Frame 60-90 (2-3s): Terminal mockup slides up with 3D perspective, fade-in
+Frame 90-210 (3-7s): Command types out character by character with typewriter effect, cursor blinks
+throughout
+Frame 210-250 (7-8.3s): Small text fades in below terminal
+Frame 250-294 (8.3-9.8s): Hold on final state, cursor continues blinking
+
+GLOBAL SETTINGS
+Resolution: 1920x1080
+Frame rate: 30fps
+Total duration: ~32 seconds (960 frames)
+Font family: Inter or SF Pro (system font fallback)
+All transitions between scenes: 15 frames (0.5s) crossfade
+
+ANIMATION GUIDELINES
+Use spring() for scale animations on pills/badges
+Use interpolate() for fade and slide animations
+Typewriter effects: reveal 2-3 characters per frame
+3D perspective containers: wrap elements in a div with perspective: 1000px
+Consistent easing: use spring config { damping: 15, stiffness: 150 } for bouncy elements

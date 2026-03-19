@@ -1,0 +1,7 @@
+.tmp/
+__pycache__/
+.gemini/
+.env
+node_modules/
+*.pyc
+.DS_Store
