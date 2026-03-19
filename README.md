@@ -32,9 +32,15 @@ Uma **Skill** é um conjunto estruturado de instruções, ferramentas e contexto
 - [Guia Jetski/Cortex + Gemini](docs/integrations/jetski-cortex-gemini.md): Como evitar context overflow usando lazy loading com 1.200+ skills.
 - [Exemplo de Implementação TS](docs/integrations/jetski-gemini-loader/): Código TypeScript para carregar skills on-demand.
 
-## 🏗️ Arquitetura do Sistema
+## 🏛️ Arquitetura do Sistema
 
 - [Agent Flow Architecture](docs/architecture/agent-flow.md): Blueprint de fluxos de trabalho, classificação de pedidos e orquestração de agentes.
+
+## 🛠️ Ferramentas UI/UX Pro Max
+
+- **UI/UX Query Engine**: Localizado em `tools/scripts/ui_ux_query.py`.
+  - Use para buscar inspirações de design, paletas de cores e boas práticas por stack.
+  - Exemplo: `python tools/scripts/ui_ux_query.py "fintech dark mode"`
 
 ---
 ...
