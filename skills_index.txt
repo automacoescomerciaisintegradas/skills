@@ -1,11 +1,6 @@
 === ANTIGRAVITY SKILLS INDEX ===
 © Automações Comerciais Integradas! 2026
 
-ID: skills
-Name: ffuf-web-fuzzing
-Category: downloads
-Description: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing wit...
-------------------------------
 ID: 00-andruia-consultant
 Name: 00-andruia-consultant
 Category: andruia
@@ -25,6 +20,16 @@ ID: 20-andruia-niche-intelligence
 Name: 20-andruia-niche-intelligence
 Category: andruia
 Description: Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho específico de un proyecto para in...
+------------------------------
+ID: 2d-games
+Name: 2d-games
+Category: game-development
+Description: 2D game development principles. Sprites, tilemaps, physics, camera....
+------------------------------
+ID: 3d-games
+Name: 3d-games
+Category: game-development
+Description: 3D game development principles. Rendering, shaders, physics, cameras....
 ------------------------------
 ID: 3d-web-experience
 Name: 3d-web-experience
@@ -431,11 +436,6 @@ Name: app-builder
 Category: backend
 Description: Main application building orchestrator. Creates full-stack applications from natural language reques...
 ------------------------------
-ID: templates
-Name: templates
-Category: app-builder
-Description: Project scaffolding templates for new applications. Use when creating new projects from scratch. Con...
-------------------------------
 ID: app-store-optimization
 Name: app-store-optimization
 Category: mobile
@@ -561,6 +561,11 @@ Name: avoid-ai-writing
 Category: content
 Description: Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement...
 ------------------------------
+ID: aws-compliance-checker
+Name: aws-compliance-checker
+Category: security
+Description: Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks...
+------------------------------
 ID: aws-cost-cleanup
 Name: aws-cost-cleanup
 Category: cloud
@@ -571,10 +576,25 @@ Name: aws-cost-optimizer
 Category: cloud
 Description: Comprehensive AWS cost analysis and optimization recommendations using AWS CLI and Cost Explorer...
 ------------------------------
+ID: aws-iam-best-practices
+Name: aws-iam-best-practices
+Category: security
+Description: IAM policy review, hardening, and least privilege implementation...
+------------------------------
 ID: aws-penetration-testing
 Name: aws-penetration-testing
 Category: backend
 Description: This skill should be used when the user asks to "pentest AWS", "test AWS security", "enumerate IAM",...
+------------------------------
+ID: aws-secrets-rotation
+Name: aws-secrets-rotation
+Category: security
+Description: Automate AWS secrets rotation for RDS, API keys, and credentials...
+------------------------------
+ID: aws-security-audit
+Name: aws-security-audit
+Category: security
+Description: Comprehensive AWS security posture assessment using AWS CLI and security best practices...
 ------------------------------
 ID: aws-serverless
 Name: aws-serverless
@@ -595,6 +615,46 @@ ID: azd-deployment
 Name: azd-deployment
 Category: devops
 Description: Deploy containerized applications to Azure Container Apps using Azure Developer CLI (azd). Use when ...
+------------------------------
+ID: azure-ai-projects-ts
+Name: Azure Ai Projects Ts
+Category: ai-ml
+Description: High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations....
+------------------------------
+ID: azure-appconfiguration-ts
+Name: Azure Appconfiguration Ts
+Category: backend
+Description: Centralized configuration management with feature flags and dynamic refresh....
+------------------------------
+ID: azure-cosmos-ts
+Name: Azure Cosmos Ts
+Category: backend
+Description: Data plane SDK for Azure Cosmos DB NoSQL API operations — CRUD on documents, queries, bulk operation...
+------------------------------
+ID: azure-keyvault-secrets-ts
+Name: Azure Keyvault Secrets Ts
+Category: web-engineering
+Description: Manage secrets with Azure Key Vault....
+------------------------------
+ID: azure-search-documents-ts
+Name: Azure Search Documents Ts
+Category: ai-ml
+Description: Build search applications with vector, hybrid, and semantic search capabilities....
+------------------------------
+ID: azure-storage-blob-ts
+Name: Azure Storage Blob Ts
+Category: security
+Description: SDK for Azure Blob Storage operations — upload, download, list, and manage blobs and containers....
+------------------------------
+ID: azure-storage-file-share-ts
+Name: Azure Storage File Share Ts
+Category: web-engineering
+Description: SDK for Azure File Share operations — SMB file shares, directories, and file operations....
+------------------------------
+ID: azure-storage-queue-ts
+Name: Azure Storage Queue Ts
+Category: web-engineering
+Description: SDK for Azure Queue Storage operations — send, receive, peek, and manage messages in queues....
 ------------------------------
 ID: azure-ai-agents-persistent-dotnet
 Name: azure-ai-agents-persistent-dotnet
@@ -671,11 +731,6 @@ Name: azure-ai-projects-py
 Category: backend
 Description: Build AI applications using the Azure AI Projects Python SDK (azure-ai-projects). Use when working w...
 ------------------------------
-ID: azure-ai-projects-ts
-Name: Azure Ai Projects Ts
-Category: ai-ml
-Description: High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations....
-------------------------------
 ID: azure-ai-textanalytics-py
 Name: azure-ai-textanalytics-py
 Category: ai-ml
@@ -741,11 +796,6 @@ Name: azure-appconfiguration-py
 Category: backend
 Description: Azure App Configuration SDK for Python. Use for centralized configuration management, feature flags,...
 ------------------------------
-ID: azure-appconfiguration-ts
-Name: Azure Appconfiguration Ts
-Category: backend
-Description: Centralized configuration management with feature flags and dynamic refresh....
-------------------------------
 ID: azure-communication-callautomation-java
 Name: azure-communication-callautomation-java
 Category: backend
@@ -800,11 +850,6 @@ ID: azure-cosmos-rust
 Name: azure-cosmos-rust
 Category: backend
 Description: Azure Cosmos DB SDK for Rust (NoSQL API). Use for document CRUD, queries, containers, and globally d...
-------------------------------
-ID: azure-cosmos-ts
-Name: Azure Cosmos Ts
-Category: backend
-Description: Data plane SDK for Azure Cosmos DB NoSQL API operations — CRUD on documents, queries, bulk operation...
 ------------------------------
 ID: azure-data-tables-java
 Name: azure-data-tables-java
@@ -910,11 +955,6 @@ ID: azure-keyvault-secrets-rust
 Name: azure-keyvault-secrets-rust
 Category: backend
 Description: Azure Key Vault Secrets SDK for Rust. Use for storing and retrieving secrets, passwords, and API key...
-------------------------------
-ID: azure-keyvault-secrets-ts
-Name: Azure Keyvault Secrets Ts
-Category: security
-Description: Manage secrets with Azure Key Vault....
 ------------------------------
 ID: azure-maps-search-dotnet
 Name: azure-maps-search-dotnet
@@ -1086,11 +1126,6 @@ Name: azure-search-documents-py
 Category: ai-ml
 Description: Azure AI Search SDK for Python. Use for vector search, hybrid search, semantic ranking, indexing, an...
 ------------------------------
-ID: azure-search-documents-ts
-Name: Azure Search Documents Ts
-Category: ai-ml
-Description: Build search applications with vector, hybrid, and semantic search capabilities....
-------------------------------
 ID: azure-security-keyvault-keys-dotnet
 Name: azure-security-keyvault-keys-dotnet
 Category: security
@@ -1141,11 +1176,6 @@ Name: azure-storage-blob-rust
 Category: backend
 Description: Azure Blob Storage SDK for Rust. Use for uploading, downloading, and managing blobs and containers....
 ------------------------------
-ID: azure-storage-blob-ts
-Name: Azure Storage Blob Ts
-Category: backend
-Description: SDK for Azure Blob Storage operations — upload, download, list, and manage blobs and containers....
-------------------------------
 ID: azure-storage-file-datalake-py
 Name: azure-storage-file-datalake-py
 Category: backend
@@ -1156,20 +1186,10 @@ Name: azure-storage-file-share-py
 Category: cloud
 Description: Azure Storage File Share SDK for Python. Use for SMB file shares, directories, and file operations i...
 ------------------------------
-ID: azure-storage-file-share-ts
-Name: Azure Storage File Share Ts
-Category: web-development
-Description: SDK for Azure File Share operations — SMB file shares, directories, and file operations....
-------------------------------
 ID: azure-storage-queue-py
 Name: azure-storage-queue-py
 Category: cloud
 Description: Azure Queue Storage SDK for Python. Use for reliable message queuing, task distribution, and asynchr...
-------------------------------
-ID: azure-storage-queue-ts
-Name: Azure Storage Queue Ts
-Category: web-development
-Description: SDK for Azure Queue Storage operations — send, receive, peek, and manage messages in queues....
 ------------------------------
 ID: azure-web-pubsub-ts
 Name: azure-web-pubsub-ts
@@ -1205,6 +1225,11 @@ ID: bamboohr-automation
 Name: bamboohr-automation
 Category: backend
 Description: Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee...
+------------------------------
+ID: base
+Name: base
+Category: database-processing
+Description: Database management, forms, reports, and data operations with LibreOffice Base....
 ------------------------------
 ID: basecamp-automation
 Name: basecamp-automation
@@ -1436,6 +1461,11 @@ ID: cal-com-automation
 Name: cal-com-automation
 Category: automation
 Description: Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webho...
+------------------------------
+ID: calc
+Name: calc
+Category: spreadsheet-processing
+Description: Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice C...
 ------------------------------
 ID: calendly-automation
 Name: calendly-automation
@@ -2334,6 +2364,11 @@ Name: dotnet-backend-patterns
 Category: database
 Description: Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise ap...
 ------------------------------
+ID: draw
+Name: draw
+Category: graphics-processing
+Description: Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw....
+------------------------------
 ID: drizzle-orm-expert
 Name: drizzle-orm-expert
 Category: database
@@ -2625,6 +2660,11 @@ Name: ffuf-web-fuzzing
 Category: backend
 Description: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing wit...
 ------------------------------
+ID: skills
+Name: ffuf-web-fuzzing
+Category: downloads
+Description: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing wit...
+------------------------------
 ID: figma-automation
 Name: figma-automation
 Category: automation
@@ -2870,21 +2910,6 @@ Name: fullstack-dev
 Category: backend
 Description: Comprehensive fullstack development skill combining architecture, testing, security, DevOps, and cod...
 ------------------------------
-ID: game-development
-Name: game-development
-Category: game-development
-Description: Game development orchestrator. Routes to platform-specific skills based on project needs....
-------------------------------
-ID: 2d-games
-Name: 2d-games
-Category: game-development
-Description: 2D game development principles. Sprites, tilemaps, physics, camera....
-------------------------------
-ID: 3d-games
-Name: 3d-games
-Category: game-development
-Description: 3D game development principles. Rendering, shaders, physics, cameras....
-------------------------------
 ID: game-art
 Name: game-art
 Category: game-development
@@ -2900,30 +2925,10 @@ Name: game-design
 Category: game-development
 Description: Game design principles. GDD structure, balancing, player psychology, progression....
 ------------------------------
-ID: mobile-games
-Name: mobile-games
+ID: game-development
+Name: game-development
 Category: game-development
-Description: Mobile game development principles. Touch input, battery, performance, app stores....
-------------------------------
-ID: multiplayer
-Name: multiplayer
-Category: game-development
-Description: Multiplayer game development principles. Architecture, networking, synchronization....
-------------------------------
-ID: pc-games
-Name: pc-games
-Category: game-development
-Description: PC and console game development principles. Engine selection, platform features, optimization strate...
-------------------------------
-ID: vr-ar
-Name: vr-ar
-Category: game-development
-Description: VR/AR development principles. Comfort, interaction, performance requirements....
-------------------------------
-ID: web-games
-Name: web-games
-Category: game-development
-Description: Web browser game development principles. Framework selection, WebGPU, optimization, PWA....
+Description: Game development orchestrator. Routes to platform-specific skills based on project needs....
 ------------------------------
 ID: gcp-cloud-run
 Name: gcp-cloud-run
@@ -3358,6 +3363,11 @@ Name: imagen
 Category: web-development
 Description: AI image generation skill powered by Google Gemini, enabling seamless visual content creation for UI...
 ------------------------------
+ID: impress
+Name: impress
+Category: presentation-processing
+Description: Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress....
+------------------------------
 ID: incident-responder
 Name: incident-responder
 Category: automation
@@ -3632,31 +3642,6 @@ ID: lex
 Name: lex
 Category: business
 Description: Centralized 'Truth Engine' for cross-jurisdictional legal context (US, EU, CA) and contract scaffold...
-------------------------------
-ID: base
-Name: base
-Category: database-processing
-Description: Database management, forms, reports, and data operations with LibreOffice Base....
-------------------------------
-ID: calc
-Name: calc
-Category: spreadsheet-processing
-Description: Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice C...
-------------------------------
-ID: draw
-Name: draw
-Category: graphics-processing
-Description: Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw....
-------------------------------
-ID: impress
-Name: impress
-Category: presentation-processing
-Description: Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress....
-------------------------------
-ID: writer
-Name: writer
-Category: document-processing
-Description: Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Wri...
 ------------------------------
 ID: lightning-architecture-review
 Name: lightning-architecture-review
@@ -4046,6 +4031,11 @@ Name: mobile-developer
 Category: mobile
 Description: Develop React Native, Flutter, or native mobile apps with modern architecture patterns. Masters cros...
 ------------------------------
+ID: mobile-games
+Name: mobile-games
+Category: game-development
+Description: Mobile game development principles. Touch input, battery, performance, app stores....
+------------------------------
 ID: mobile-security-coder
 Name: mobile-security-coder
 Category: security
@@ -4116,6 +4106,11 @@ ID: multi-platform-apps-multi-platform
 Name: multi-platform-apps-multi-platform
 Category: web-development
 Description: Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-f...
+------------------------------
+ID: multiplayer
+Name: multiplayer
+Category: game-development
+Description: Multiplayer game development principles. Architecture, networking, synchronization....
 ------------------------------
 ID: n8n-code-javascript
 Name: n8n-code-javascript
@@ -4462,6 +4457,11 @@ Name: outlook-calendar-automation
 Category: automation
 Description: Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeti...
 ------------------------------
+ID: padroes-de-commits
+Name: Padrões de Commits (Semantic Commits)
+Category: development
+Description: Diretrizes detalhadas para mensagens de commit semânticas, garantindo legibilidade e versionamento a...
+------------------------------
 ID: page-cro
 Name: page-cro
 Category: content
@@ -4501,6 +4501,11 @@ ID: paywall-upgrade-cro
 Name: paywall-upgrade-cro
 Category: mobile
 Description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or featur...
+------------------------------
+ID: pc-games
+Name: pc-games
+Category: game-development
+Description: PC and console game development principles. Engine selection, platform features, optimization strate...
 ------------------------------
 ID: pci-compliance
 Name: pci-compliance
@@ -5160,26 +5165,6 @@ Name: secrets-management
 Category: devops
 Description: Implement secure secrets management for CI/CD pipelines using Vault, AWS Secrets Manager, or native ...
 ------------------------------
-ID: aws-compliance-checker
-Name: aws-compliance-checker
-Category: security
-Description: Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks...
-------------------------------
-ID: aws-iam-best-practices
-Name: aws-iam-best-practices
-Category: security
-Description: IAM policy review, hardening, and least privilege implementation...
-------------------------------
-ID: aws-secrets-rotation
-Name: aws-secrets-rotation
-Category: security
-Description: Automate AWS secrets rotation for RDS, API keys, and credentials...
-------------------------------
-ID: aws-security-audit
-Name: aws-security-audit
-Category: security
-Description: Comprehensive AWS security posture assessment using AWS CLI and security best practices...
-------------------------------
 ID: security-audit
 Name: security-audit
 Category: workflow-bundle
@@ -5813,6 +5798,11 @@ Name: telegram-mini-app
 Category: web-development
 Description: Expert in building Telegram Mini Apps (TWA) - web apps that run inside Telegram with native-like exp...
 ------------------------------
+ID: templates
+Name: templates
+Category: app-builder
+Description: Project scaffolding templates for new applications. Use when creating new projects from scratch. Con...
+------------------------------
 ID: temporal-golang-pro
 Name: temporal-golang-pro
 Category: backend
@@ -6223,6 +6213,11 @@ Name: voice-ai-engine-development
 Category: backend
 Description: Build real-time conversational AI voice engines using async worker pipelines, streaming transcriptio...
 ------------------------------
+ID: vr-ar
+Name: vr-ar
+Category: game-development
+Description: VR/AR development principles. Comfort, interaction, performance requirements....
+------------------------------
 ID: vulnerability-scanner
 Name: vulnerability-scanner
 Category: devops
@@ -6247,6 +6242,11 @@ ID: web-design-guidelines
 Name: web-design-guidelines
 Category: automation
 Description: Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check ...
+------------------------------
+ID: web-games
+Name: web-games
+Category: game-development
+Description: Web browser game development principles. Framework selection, WebGPU, optimization, PWA....
 ------------------------------
 ID: web-performance-optimization
 Name: web-performance-optimization
@@ -6387,6 +6387,11 @@ ID: wrike-automation
 Name: wrike-automation
 Category: backend
 Description: Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, as...
+------------------------------
+ID: writer
+Name: writer
+Category: document-processing
+Description: Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Wri...
 ------------------------------
 ID: writing-plans
 Name: writing-plans

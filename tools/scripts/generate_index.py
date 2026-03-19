@@ -5,7 +5,8 @@ import sys
 import yaml
 import datetime
 from pathlib import Path
-# Adjust import path since script is in tools/scripts/
+
+# Adjust import path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from _project_paths import find_repo_root
 
@@ -16,54 +17,54 @@ if sys.platform == 'win32':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 CATEGORY_KEYWORDS = {
-    "backend": [
-        "nodejs", "node.js", "express", "fastapi", "django", "flask", "spring", 
-        "java", "python", "golang", "rust", "server", "api", "rest", "graphql", 
-        "database", "sql", "mongodb"
+    "web-engineering": [
+        "react", "vue", "angular", "svelte", "nextjs", "tailwind", "frontend",
+        "html", "css", "browser", "web", "dom", "accessibility", "seo",
     ],
-    "web-development": [
-        "react", "vue", "angular", "html", "css", "javascript", "typescript", 
-        "frontend", "tailwind", "bootstrap", "webpack", "vite", "pwa", 
-        "responsive", "seo"
+    "backend": [
+        "backend", "api", "server", "fastapi", "django", "flask", "express",
+        "spring", "node", "golang", "rust", "php", "laravel",
     ],
     "database": [
-        "database", "sql", "postgres", "mysql", "mongodb", "firestore", 
-        "redis", "orm", "schema"
+        "database", "sql", "postgres", "mysql", "mongodb", "redis", "dynamodb",
+        "orm", "schema", "query",
     ],
     "ai-ml": [
-        "ai", "machine learning", "ml", "tensorflow", "pytorch", "nlp", 
-        "llm", "gpt", "transformer", "embedding", "training"
+        "llm", "gpt", "ai", "machine learning", "deep learning", "pytorch",
+        "tensorflow", "embedding", "rag", "transformer", "model",
     ],
-    "devops": [
-        "docker", "kubernetes", "ci/cd", "git", "jenkins", "terraform", 
-        "ansible", "deploy", "container", "monitoring"
-    ],
-    "cloud": [
-        "aws", "azure", "gcp", "serverless", "lambda", "storage", "cdn"
+    "cloud-devops": [
+        "docker", "kubernetes", "k8s", "ci/cd", "github actions", "terraform",
+        "ansible", "aws", "azure", "gcp", "deployment", "devops", "serverless",
     ],
     "security": [
-        "encryption", "cryptography", "jwt", "oauth", "authentication", 
-        "authorization", "vulnerability"
+        "security", "owasp", "audit", "vulnerability", "threat", "penetration",
+        "authentication", "authorization", "jwt", "oauth", "compliance",
     ],
-    "testing": [
-        "test", "jest", "mocha", "pytest", "cypress", "selenium", 
-        "unit test", "e2e"
+    "testing-qa": [
+        "test", "testing", "pytest", "jest", "cypress", "playwright", "quality",
+        "regression", "coverage", "e2e",
     ],
     "mobile": [
-        "mobile", "react native", "flutter", "ios", "android", "swift", "kotlin"
+        "android", "ios", "react native", "flutter", "swift", "kotlin", "mobile",
     ],
-    "automation": [
-        "automation", "workflow", "scripting", "robot", "trigger", "integration"
+    "data-engineering": [
+        "etl", "pipeline", "airflow", "spark", "warehouse", "analytics", "data",
     ],
-    "game-development": [
-        "game", "unity", "unreal", "godot", "threejs", "2d", "3d", "physics"
+    "research": [
+        "research", "manuscript", "systematic review", "meta-analysis", "grade",
+        "consort", "prisma", "study",
     ],
-    "data-science": [
-        "data", "analytics", "pandas", "numpy", "statistics", "visualization"
+    "bioinformatics": [
+        "genomics", "proteomics", "rna", "sequencing", "variant", "phylogenetics",
+        "biopython", "single-cell", "biomedical",
     ],
-    "content": [
-        "documentation", "seo", "writing", "blog", "article", "content"
-    ]
+    "geospatial": [
+        "geospatial", "gis", "spatial", "remote sensing", "raster", "vector",
+    ],
+    "finance": [
+        "finance", "trading", "portfolio", "risk", "market", "economic", "treasury",
+    ],
 }
 
 STOPWORD_TOKENS = {
@@ -88,7 +89,9 @@ def normalize_category(value):
     return text or None
 
 def infer_dynamic_category(skill_id):
-    """Infer a category dynamically from skill id tokens."""
+    """
+    Infer a category dynamically from skill id tokens.
+    """
     raw_tokens = [
         token for token in re.split(r"[^a-z0-9]+", skill_id.lower()) if token
     ]
@@ -157,24 +160,32 @@ def infer_category(skill_info, metadata, body_text):
     return infer_dynamic_category(str(skill_info.get("id", "")))
 
 def parse_frontmatter(content):
-    """Parses YAML frontmatter, sanitizing unquoted values containing @."""
+    """
+    Parses YAML frontmatter, sanitizing unquoted values containing @.
+    """
     fm_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
     if not fm_match:
         return {}
     
     yaml_text = fm_match.group(1)
+    
+    # Process line by line to handle values containing @ and commas
     sanitized_lines = []
     for line in yaml_text.splitlines():
+        # Match "key: value" (handles keys with dashes like 'package-name')
         match = re.match(r'^(\s*[\w-]+):\s*(.*)$', line)
         if match:
             key, val = match.groups()
             val_s = val.strip()
+            # If value contains @ and isn't already quoted, wrap the whole string in double quotes
             if '@' in val_s and not (val_s.startswith('"') or val_s.startswith("'")):
+                # Escape any existing double quotes within the value string
                 safe_val = val_s.replace('"', '\\"')
                 line = f'{key}: "{safe_val}"'
         sanitized_lines.append(line)
     
     sanitized_yaml = '\n'.join(sanitized_lines)
+    
     try:
         return yaml.safe_load(sanitized_yaml) or {}
     except yaml.YAMLError as e:
@@ -186,6 +197,7 @@ def generate_index(skills_dir, output_file):
     skills = []
 
     for root, dirs, files in os.walk(skills_dir):
+        # Skip .disabled or hidden directories
         dirs[:] = [d for d in dirs if not d.startswith('.')]
         
         if "SKILL.md" in files:
@@ -193,7 +205,9 @@ def generate_index(skills_dir, output_file):
             dir_name = os.path.basename(root)
             parent_dir = os.path.basename(os.path.dirname(root))
             
+            # Default values
             rel_path = os.path.relpath(root, skills_dir)
+            # Force forward slashes for cross-platform JSON compatibility
             skill_info = {
                 "id": dir_name,
                 "path": rel_path.replace(os.sep, '/'),
@@ -214,24 +228,30 @@ def generate_index(skills_dir, output_file):
                 print(f"⚠️ Error reading {skill_path}: {e}")
                 continue
 
+            # Parse Metadata
             metadata = parse_frontmatter(content)
+
             body = content
             fm_match = re.search(r'^---\s*\n(.*?)\n---', content, re.DOTALL)
             if fm_match:
                 body = content[fm_match.end():].strip()
             
+            # Merge Metadata (frontmatter takes priority)
             if "name" in metadata: skill_info["name"] = metadata["name"]
             if "description" in metadata: skill_info["description"] = metadata["description"]
             if "risk" in metadata: skill_info["risk"] = metadata["risk"]
             if "source" in metadata: skill_info["source"] = metadata["source"]
             if "date_added" in metadata: skill_info["date_added"] = metadata["date_added"]
             
+            # Category: prefer frontmatter, then folder structure, then default
             inferred_category, confidence, reason = infer_category(skill_info, metadata, body)
             skill_info["category"] = inferred_category or "uncategorized"
             skill_info["category_confidence"] = confidence
             skill_info["category_reason"] = reason
             
+            # Fallback for description if missing in frontmatter
             if not skill_info["description"]:
+                # Simple extraction of first non-header paragraph
                 lines = body.split('\n')
                 desc_lines = []
                 for line in lines:
@@ -239,10 +259,14 @@ def generate_index(skills_dir, output_file):
                         if desc_lines: break
                         continue
                     desc_lines.append(line.strip())
+                
                 if desc_lines:
                     skill_info["description"] = " ".join(desc_lines)[:250].strip()
 
             skills.append(skill_info)
+
+    # Sort validation: by name
+    skills.sort(key=lambda x: (x["name"].lower(), x["id"].lower()))
 
     # Helper for JSON serialization of date objects
     def datetime_handler(x):
@@ -272,7 +296,7 @@ def generate_index(skills_dir, output_file):
 
 if __name__ == "__main__":
     base_dir = str(find_repo_root(__file__))
-    # Adjust paths based on new script location
+    # Skills are in the root directory in this workspace
     skills_path = base_dir
     output_path = os.path.join(base_dir, "skills_index.json")
     generate_index(skills_path, output_path)

@@ -1,17 +1,5 @@
 [
   {
-    "id": "skills",
-    "path": ".",
-    "category": "downloads",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "ffuf-web-fuzzing",
-    "description": "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "00-andruia-consultant",
     "path": "00-andruia-consultant",
     "category": "andruia",
@@ -57,6 +45,30 @@
     "description": "Estratega de Inteligencia de Dominio de Andru.ia. Analiza el nicho espec\u00edfico de un proyecto para inyectar conocimientos, regulaciones y est\u00e1ndares \u00fanicos del sector. Act\u00edvalo tras definir el nicho.",
     "risk": "safe",
     "source": "personal",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "2d-games",
+    "path": "game-development/2d-games",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "2d-games",
+    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "3d-games",
+    "path": "game-development/3d-games",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "3d-games",
+    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
+    "risk": "unknown",
+    "source": "community",
     "date_added": "2026-02-27"
   },
   {
@@ -1032,18 +1044,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "templates",
-    "path": "app-builder/templates",
-    "category": "app-builder",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "templates",
-    "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
     "id": "app-store-optimization",
     "path": "app-store-optimization",
     "category": "mobile",
@@ -1344,6 +1344,18 @@
     "date_added": "2026-03-06"
   },
   {
+    "id": "aws-compliance-checker",
+    "path": "security/aws-compliance-checker",
+    "category": "security",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "aws-compliance-checker",
+    "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "aws-cost-cleanup",
     "path": "aws-cost-cleanup",
     "category": "cloud",
@@ -1368,6 +1380,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "aws-iam-best-practices",
+    "path": "security/aws-iam-best-practices",
+    "category": "security",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "aws-iam-best-practices",
+    "description": "IAM policy review, hardening, and least privilege implementation",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "aws-penetration-testing",
     "path": "aws-penetration-testing",
     "category": "backend",
@@ -1376,6 +1400,30 @@
     "name": "aws-penetration-testing",
     "description": "This skill should be used when the user asks to \"pentest AWS\", \"test AWS security\", \"enumerate IAM\", \"exploit cloud infrastructure\", \"AWS privilege escalation\", \"S3 bucket testing...",
     "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "aws-secrets-rotation",
+    "path": "security/aws-secrets-rotation",
+    "category": "security",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "aws-secrets-rotation",
+    "description": "Automate AWS secrets rotation for RDS, API keys, and credentials",
+    "risk": "safe",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "aws-security-audit",
+    "path": "security/aws-security-audit",
+    "category": "security",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "aws-security-audit",
+    "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
+    "risk": "safe",
     "source": "community",
     "date_added": "2026-02-27"
   },
@@ -1426,6 +1474,102 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
+  },
+  {
+    "id": "azure-ai-projects-ts",
+    "path": "azure-ai-projects-ts",
+    "category": "ai-ml",
+    "category_confidence": 0.9,
+    "category_reason": "keyword-match:gpt,ai,model",
+    "name": "Azure Ai Projects Ts",
+    "description": "High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-appconfiguration-ts",
+    "path": "azure-appconfiguration-ts",
+    "category": "backend",
+    "category_confidence": 0.6,
+    "category_reason": "keyword-match:express",
+    "name": "Azure Appconfiguration Ts",
+    "description": "Centralized configuration management with feature flags and dynamic refresh.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-cosmos-ts",
+    "path": "azure-cosmos-ts",
+    "category": "backend",
+    "category_confidence": 0.75,
+    "category_reason": "keyword-match:api,node",
+    "name": "Azure Cosmos Ts",
+    "description": "Data plane SDK for Azure Cosmos DB NoSQL API operations \u2014 CRUD on documents, queries, bulk operations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-keyvault-secrets-ts",
+    "path": "azure-keyvault-secrets-ts",
+    "category": "web-engineering",
+    "category_confidence": 0.6,
+    "category_reason": "keyword-match:browser",
+    "name": "Azure Keyvault Secrets Ts",
+    "description": "Manage secrets with Azure Key Vault.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-search-documents-ts",
+    "path": "azure-search-documents-ts",
+    "category": "ai-ml",
+    "category_confidence": 0.75,
+    "category_reason": "keyword-match:ai,embedding",
+    "name": "Azure Search Documents Ts",
+    "description": "Build search applications with vector, hybrid, and semantic search capabilities.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-storage-blob-ts",
+    "path": "azure-storage-blob-ts",
+    "category": "security",
+    "category_confidence": 0.75,
+    "category_reason": "keyword-match:audit,authentication",
+    "name": "Azure Storage Blob Ts",
+    "description": "SDK for Azure Blob Storage operations \u2014 upload, download, list, and manage blobs and containers.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-storage-file-share-ts",
+    "path": "azure-storage-file-share-ts",
+    "category": "web-engineering",
+    "category_confidence": 0.6,
+    "category_reason": "keyword-match:browser",
+    "name": "Azure Storage File Share Ts",
+    "description": "SDK for Azure File Share operations \u2014 SMB file shares, directories, and file operations.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
+    "id": "azure-storage-queue-ts",
+    "path": "azure-storage-queue-ts",
+    "category": "web-engineering",
+    "category_confidence": 0.6,
+    "category_reason": "keyword-match:browser",
+    "name": "Azure Storage Queue Ts",
+    "description": "SDK for Azure Queue Storage operations \u2014 send, receive, peek, and manage messages in queues.",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
   },
   {
     "id": "azure-ai-agents-persistent-dotnet",
@@ -1608,18 +1752,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "azure-ai-projects-ts",
-    "path": "azure-ai-projects-ts",
-    "category": "ai-ml",
-    "category_confidence": 0.9,
-    "category_reason": "keyword-match:ai,gpt,training",
-    "name": "Azure Ai Projects Ts",
-    "description": "High-level SDK for Azure AI Foundry projects with agents, connections, deployments, and evaluations.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "azure-ai-textanalytics-py",
     "path": "azure-ai-textanalytics-py",
     "category": "ai-ml",
@@ -1776,18 +1908,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "azure-appconfiguration-ts",
-    "path": "azure-appconfiguration-ts",
-    "category": "backend",
-    "category_confidence": 0.75,
-    "category_reason": "keyword-match:express,database",
-    "name": "Azure Appconfiguration Ts",
-    "description": "Centralized configuration management with feature flags and dynamic refresh.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "azure-communication-callautomation-java",
     "path": "azure-communication-callautomation-java",
     "category": "backend",
@@ -1918,18 +2038,6 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
-  },
-  {
-    "id": "azure-cosmos-ts",
-    "path": "azure-cosmos-ts",
-    "category": "backend",
-    "category_confidence": 0.9,
-    "category_reason": "keyword-match:node.js,api,database",
-    "name": "Azure Cosmos Ts",
-    "description": "Data plane SDK for Azure Cosmos DB NoSQL API operations \u2014 CRUD on documents, queries, bulk operations.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
   },
   {
     "id": "azure-data-tables-java",
@@ -2182,18 +2290,6 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
-  },
-  {
-    "id": "azure-keyvault-secrets-ts",
-    "path": "azure-keyvault-secrets-ts",
-    "category": "security",
-    "category_confidence": 0.8,
-    "category_reason": "keyword-match:encryption,cryptography,authentication",
-    "name": "Azure Keyvault Secrets Ts",
-    "description": "Manage secrets with Azure Key Vault.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
   },
   {
     "id": "azure-maps-search-dotnet",
@@ -2604,18 +2700,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "azure-search-documents-ts",
-    "path": "azure-search-documents-ts",
-    "category": "ai-ml",
-    "category_confidence": 0.75,
-    "category_reason": "keyword-match:ai,embedding",
-    "name": "Azure Search Documents Ts",
-    "description": "Build search applications with vector, hybrid, and semantic search capabilities.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "azure-security-keyvault-keys-dotnet",
     "path": "azure-security-keyvault-keys-dotnet",
     "category": "security",
@@ -2736,18 +2820,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "azure-storage-blob-ts",
-    "path": "azure-storage-blob-ts",
-    "category": "backend",
-    "category_confidence": 0.75,
-    "category_reason": "keyword-match:nodejs,node.js",
-    "name": "Azure Storage Blob Ts",
-    "description": "SDK for Azure Blob Storage operations \u2014 upload, download, list, and manage blobs and containers.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "azure-storage-file-datalake-py",
     "path": "azure-storage-file-datalake-py",
     "category": "backend",
@@ -2772,18 +2844,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "azure-storage-file-share-ts",
-    "path": "azure-storage-file-share-ts",
-    "category": "web-development",
-    "category_confidence": 0.75,
-    "category_reason": "keyword-match:javascript,typescript",
-    "name": "Azure Storage File Share Ts",
-    "description": "SDK for Azure File Share operations \u2014 SMB file shares, directories, and file operations.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
-  },
-  {
     "id": "azure-storage-queue-py",
     "path": "azure-storage-queue-py",
     "category": "cloud",
@@ -2794,18 +2854,6 @@
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
-  },
-  {
-    "id": "azure-storage-queue-ts",
-    "path": "azure-storage-queue-ts",
-    "category": "web-development",
-    "category_confidence": 0.75,
-    "category_reason": "keyword-match:javascript,typescript",
-    "name": "Azure Storage Queue Ts",
-    "description": "SDK for Azure Queue Storage operations \u2014 send, receive, peek, and manage messages in queues.",
-    "risk": "unknown",
-    "source": "unknown",
-    "date_added": null
   },
   {
     "id": "azure-web-pubsub-ts",
@@ -2889,6 +2937,18 @@
     "description": "Automate BambooHR tasks via Rube MCP (Composio): employees, time-off, benefits, dependents, employee updates. Always search tools first for current schemas.",
     "risk": "unknown",
     "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "base",
+    "path": "libreoffice/base",
+    "category": "database-processing",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "base",
+    "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
+    "risk": "safe",
+    "source": "personal",
     "date_added": "2026-02-27"
   },
   {
@@ -3441,6 +3501,18 @@
     "description": "Automate Cal.com tasks via Rube MCP (Composio): manage bookings, check availability, configure webhooks, and handle teams. Always search tools first for current schemas.",
     "risk": "unknown",
     "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "calc",
+    "path": "libreoffice/calc",
+    "category": "spreadsheet-processing",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "calc",
+    "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
+    "risk": "safe",
+    "source": "personal",
     "date_added": "2026-02-27"
   },
   {
@@ -5592,6 +5664,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "draw",
+    "path": "libreoffice/draw",
+    "category": "graphics-processing",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "draw",
+    "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "drizzle-orm-expert",
     "path": "drizzle-orm-expert",
     "category": "database",
@@ -6288,6 +6372,18 @@
     "date_added": null
   },
   {
+    "id": "skills",
+    "path": ".",
+    "category": "downloads",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "ffuf-web-fuzzing",
+    "description": "Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis",
+    "risk": "unknown",
+    "source": "unknown",
+    "date_added": null
+  },
+  {
     "id": "figma-automation",
     "path": "figma-automation",
     "category": "automation",
@@ -6876,42 +6972,6 @@
     "date_added": null
   },
   {
-    "id": "game-development",
-    "path": "game-development",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "game-development",
-    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "2d-games",
-    "path": "game-development/2d-games",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "2d-games",
-    "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "3d-games",
-    "path": "game-development/3d-games",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "3d-games",
-    "description": "3D game development principles. Rendering, shaders, physics, cameras.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
     "id": "game-art",
     "path": "game-development/game-art",
     "category": "game-development",
@@ -6948,61 +7008,13 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "mobile-games",
-    "path": "game-development/mobile-games",
+    "id": "game-development",
+    "path": "game-development",
     "category": "game-development",
     "category_confidence": 1.0,
     "category_reason": "frontmatter:category",
-    "name": "mobile-games",
-    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "multiplayer",
-    "path": "game-development/multiplayer",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "multiplayer",
-    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "pc-games",
-    "path": "game-development/pc-games",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "pc-games",
-    "description": "PC and console game development principles. Engine selection, platform features, optimization strategies.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "vr-ar",
-    "path": "game-development/vr-ar",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "vr-ar",
-    "description": "VR/AR development principles. Comfort, interaction, performance requirements.",
-    "risk": "unknown",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "web-games",
-    "path": "game-development/web-games",
-    "category": "game-development",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "web-games",
-    "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA.",
+    "name": "game-development",
+    "description": "Game development orchestrator. Routes to platform-specific skills based on project needs.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -8040,6 +8052,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "impress",
+    "path": "libreoffice/impress",
+    "category": "presentation-processing",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "impress",
+    "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "incident-responder",
     "path": "incident-responder",
     "category": "automation",
@@ -8698,66 +8722,6 @@
     "risk": "safe",
     "source": "community",
     "date_added": "2026-03-10"
-  },
-  {
-    "id": "base",
-    "path": "libreoffice/base",
-    "category": "database-processing",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "base",
-    "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "calc",
-    "path": "libreoffice/calc",
-    "category": "spreadsheet-processing",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "calc",
-    "description": "Spreadsheet creation, format conversion (ODS/XLSX/CSV), formulas, data automation with LibreOffice Calc.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "draw",
-    "path": "libreoffice/draw",
-    "category": "graphics-processing",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "draw",
-    "description": "Vector graphics and diagram creation, format conversion (ODG/SVG/PDF) with LibreOffice Draw.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "impress",
-    "path": "libreoffice/impress",
-    "category": "presentation-processing",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "impress",
-    "description": "Presentation creation, format conversion (ODP/PPTX/PDF), slide automation with LibreOffice Impress.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "writer",
-    "path": "libreoffice/writer",
-    "category": "document-processing",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "writer",
-    "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
-    "risk": "safe",
-    "source": "personal",
-    "date_added": "2026-02-27"
   },
   {
     "id": "lightning-architecture-review",
@@ -9660,6 +9624,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "mobile-games",
+    "path": "game-development/mobile-games",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "mobile-games",
+    "description": "Mobile game development principles. Touch input, battery, performance, app stores.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "mobile-security-coder",
     "path": "mobile-security-coder",
     "category": "security",
@@ -9823,6 +9799,18 @@
     "category_reason": "frontmatter:category",
     "name": "multi-platform-apps-multi-platform",
     "description": "Build and deploy the same feature consistently across web, mobile, and desktop platforms using API-first architecture and parallel implementation strategies.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "multiplayer",
+    "path": "game-development/multiplayer",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "multiplayer",
+    "description": "Multiplayer game development principles. Architecture, networking, synchronization.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -10656,6 +10644,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "padroes-de-commits",
+    "path": "padroes-de-commits",
+    "category": "development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "Padr\u00f5es de Commits (Semantic Commits)",
+    "description": "Diretrizes detalhadas para mensagens de commit sem\u00e2nticas, garantindo legibilidade e versionamento automatizado.",
+    "risk": "safe",
+    "source": "personal",
+    "date_added": null
+  },
+  {
     "id": "page-cro",
     "path": "page-cro",
     "category": "content",
@@ -10747,6 +10747,18 @@
     "category_reason": "frontmatter:category",
     "name": "paywall-upgrade-cro",
     "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,...",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "pc-games",
+    "path": "game-development/pc-games",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "pc-games",
+    "description": "PC and console game development principles. Engine selection, platform features, optimization strategies.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -12312,54 +12324,6 @@
     "date_added": "2026-02-27"
   },
   {
-    "id": "aws-compliance-checker",
-    "path": "security/aws-compliance-checker",
-    "category": "security",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "aws-compliance-checker",
-    "description": "Automated compliance checking against CIS, PCI-DSS, HIPAA, and SOC 2 benchmarks",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "aws-iam-best-practices",
-    "path": "security/aws-iam-best-practices",
-    "category": "security",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "aws-iam-best-practices",
-    "description": "IAM policy review, hardening, and least privilege implementation",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "aws-secrets-rotation",
-    "path": "security/aws-secrets-rotation",
-    "category": "security",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "aws-secrets-rotation",
-    "description": "Automate AWS secrets rotation for RDS, API keys, and credentials",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
-    "id": "aws-security-audit",
-    "path": "security/aws-security-audit",
-    "category": "security",
-    "category_confidence": 1.0,
-    "category_reason": "frontmatter:category",
-    "name": "aws-security-audit",
-    "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
-    "risk": "safe",
-    "source": "community",
-    "date_added": "2026-02-27"
-  },
-  {
     "id": "security-audit",
     "path": "security-audit",
     "category": "workflow-bundle",
@@ -13860,6 +13824,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "templates",
+    "path": "app-builder/templates",
+    "category": "app-builder",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "templates",
+    "description": "Project scaffolding templates for new applications. Use when creating new projects from scratch. Contains 12 templates for various tech stacks.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "temporal-golang-pro",
     "path": "temporal-golang-pro",
     "category": "backend",
@@ -14844,6 +14820,18 @@
     "date_added": "2026-02-27"
   },
   {
+    "id": "vr-ar",
+    "path": "game-development/vr-ar",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "vr-ar",
+    "description": "VR/AR development principles. Comfort, interaction, performance requirements.",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
     "id": "vulnerability-scanner",
     "path": "vulnerability-scanner",
     "category": "devops",
@@ -14899,6 +14887,18 @@
     "category_reason": "frontmatter:category",
     "name": "web-design-guidelines",
     "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \\\"review my UI\\\", \\\"check accessibility\\\", \\\"audit design\\\", \\\"review UX\\\", or \\\"check my site aga...",
+    "risk": "unknown",
+    "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "web-games",
+    "path": "game-development/web-games",
+    "category": "game-development",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "web-games",
+    "description": "Web browser game development principles. Framework selection, WebGPU, optimization, PWA.",
     "risk": "unknown",
     "source": "community",
     "date_added": "2026-02-27"
@@ -15237,6 +15237,18 @@
     "description": "Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress. Always search tools first for current schemas.",
     "risk": "unknown",
     "source": "community",
+    "date_added": "2026-02-27"
+  },
+  {
+    "id": "writer",
+    "path": "libreoffice/writer",
+    "category": "document-processing",
+    "category_confidence": 1.0,
+    "category_reason": "frontmatter:category",
+    "name": "writer",
+    "description": "Document creation, format conversion (ODT/DOCX/PDF), mail merge, and automation with LibreOffice Writer.",
+    "risk": "safe",
+    "source": "personal",
     "date_added": "2026-02-27"
   },
   {
