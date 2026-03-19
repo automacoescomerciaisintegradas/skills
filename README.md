@@ -27,7 +27,12 @@ Uma **Skill** é um conjunto estruturado de instruções, ferramentas e contexto
 2. **Integração no Agente**:
    O agente deve sempre consultar o índice e executar `load_skill("nome_da_skill")` antes de responder.
 
+## 📖 Documentação de Integração
+
+- [Guia Jetski/Cortex + Gemini](docs/integrations/jetski-cortex-gemini.md): Como evitar context overflow usando lazy loading com 1.200+ skills.
+
 ---
+...
 
 ### 🛡️ Automações Comerciais Integradas! 2026 ⚙️
 **Desenvolvido para Máxima Performance e Economia de Tokens.**
