@@ -30,6 +30,7 @@ Uma **Skill** é um conjunto estruturado de instruções, ferramentas e contexto
 ## 📖 Documentação de Integração
 
 - [Guia Jetski/Cortex + Gemini](docs/integrations/jetski-cortex-gemini.md): Como evitar context overflow usando lazy loading com 1.200+ skills.
+- [Exemplo de Implementação TS](docs/integrations/jetski-gemini-loader/): Código TypeScript para carregar skills on-demand.
 
 ---
 ...
