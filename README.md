@@ -20,6 +20,7 @@ Uma **Skill** é um conjunto estruturado de instruções, ferramentas e contexto
 - `skills_index.txt`: Lista legível para consulta rápida do agente.
 
 ## ⚙️ Como Usar
+Para usar essas skills em **qualquer projeto no seu PC**, siga o nosso [Guia de Uso Global](docs/GLOBAL_USAGE.md).
 
 1. **Instalação Local**:
    Execute `tools/activate_skills.bat` para configurar seu ambiente.
