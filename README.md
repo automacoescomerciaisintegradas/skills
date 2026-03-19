@@ -38,6 +38,9 @@ Uma **Skill** é um conjunto estruturado de instruções, ferramentas e contexto
 
 ## 🛠️ Ferramentas UI/UX Pro Max
 
+- **Global Skill Search**: Ferramenta CLI para encontrar qualquer uma das 1.291 skills por palavra-chave.
+  - Exemplo: `python tools/scripts/skill_search.py "segurança owasp"`
+
 - **UI/UX Query Engine**: Localizado em `tools/scripts/ui_ux_query.py`.
   - Use para buscar inspirações de design, paletas de cores e boas práticas por stack.
   - Exemplo: `python tools/scripts/ui_ux_query.py "fintech dark mode"`
