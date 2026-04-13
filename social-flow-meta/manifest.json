@@ -1,0 +1,28 @@
+{
+  "name": "social-flow-meta",
+  "version": "1.0.0",
+  "description": "Meta Operations Control Plane for agencies and ops teams. Managing FB, IG, and WhatsApp workflows.",
+  "license": "MIT",
+  "keywords": ["meta", "facebook", "instagram", "whatsapp", "ads", "automation"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      {
+        "name": "/social-auth-status",
+        "description": "Check Meta API connection status"
+      },
+      {
+        "name": "/social-limits-check",
+        "description": "Monitor Meta API rate limits"
+      },
+      {
+        "name": "/social-query-pages",
+        "description": "List managed Facebook pages"
+      }
+    ]
+  }
+}
