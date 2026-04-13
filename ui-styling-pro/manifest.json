@@ -1,0 +1,24 @@
+{
+  "name": "ui-styling-pro",
+  "version": "1.0.0",
+  "description": "Gerador de estilos visuais modernos e premiuns (Glassmorphism, Gradientes) para componentes web.",
+  "license": "MIT",
+  "keywords": ["ui", "design", "css", "styling"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      {
+        "name": "/generate-glassmorphism",
+        "description": "Gera código CSS de efeito vidro fosco."
+      },
+      {
+        "name": "/generate-premium-gradient",
+        "description": "Cria um gradiente harmônico baseado em cor primária."
+      }
+    ]
+  }
+}

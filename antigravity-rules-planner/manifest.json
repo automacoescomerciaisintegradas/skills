@@ -1,0 +1,24 @@
+{
+  "name": "antigravity-rules-planner",
+  "version": "1.0.0",
+  "description": "Ferramenta tática para geração de planos de ação globais e manuais de governança de projetos.",
+  "license": "MIT",
+  "keywords": ["planning", "governance", "rules", "antigravity"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      {
+        "name": "/gen-phase-plan",
+        "description": "Gera planejamento detalhado por fases."
+      },
+      {
+        "name": "/split-rules",
+        "description": "Segmenta regras do CLAUDE.md em arquivos .claude/rules/."
+      }
+    ]
+  }
+}

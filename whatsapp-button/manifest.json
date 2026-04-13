@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-button",
+  "version": "1.0.0",
+  "description": "Widget de botão flutuante do WhatsApp para sites com suporte a personalização dinâmica.",
+  "license": "MIT",
+  "keywords": ["whatsapp", "widget", "contact"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      {
+        "name": "/inject-whatsapp-button",
+        "description": "Insere o código do botão flutuante em um arquivo HTML."
+      }
+    ]
+  }
+}
