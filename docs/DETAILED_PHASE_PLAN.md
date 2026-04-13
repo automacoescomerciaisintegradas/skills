@@ -9,6 +9,7 @@
   - [ ] Configurar `controllers.md` (separação de responsabilidade).
   - [ ] Configurar `services.md` (lógica de negócio isolada).
   - [ ] Configurar `testing.md` (segmentação unidade/int/e2e).
+  - [ ] Configurar `security.md` (regra de defesa proativa e SecurityGuard).
 
 ## 💻 Fase 2: Base de Desenvolvimento Software
 - [ ] **Configuração Geral**

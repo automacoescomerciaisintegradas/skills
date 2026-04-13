@@ -34,6 +34,7 @@ If the request is mainly about Cloudflare, Elementor, landing-page motion, or a 
 - REST API best practices
 - Mandatory testing expectations
 - TypeScript strict mode and other repo-wide language constraints
+- **SecurityGuard**: Mandatory command validation for Mission-Critical safety
 
 ### Place these topics in scoped rule files
 
