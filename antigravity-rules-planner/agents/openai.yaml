@@ -1,0 +1,4 @@
+interface:
+  display_name: "Antigravity Rules Planner"
+  short_description: "Split rules and phase plans"
+  default_prompt: "Use $antigravity-rules-planner to split project rules and turn my docs into phased action plans."

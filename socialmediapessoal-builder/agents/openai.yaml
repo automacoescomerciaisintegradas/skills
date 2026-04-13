@@ -1,0 +1,4 @@
+interface:
+  display_name: "SocialMediaPessoal Builder"
+  short_description: "Builder, Cloudflare, and Elementor playbook"
+  default_prompt: "Use $socialmediapessoal-builder to organize my builder idea into Cloudflare, Elementor, and product workstreams."

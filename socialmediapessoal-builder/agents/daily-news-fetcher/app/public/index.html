@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📰 Daily Top News Fetcher</title>
+  <meta name="description" content="Your personal AI news agent — fetches top news by category every morning.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient animated background -->
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header__brand">
+        <span class="header__icon">📰</span>
+        <div>
+          <h1 class="header__title">Daily News Fetcher</h1>
+          <p class="header__sub">Seu briefing matinal de notícias — powered by AI Agent</p>
+        </div>
+      </div>
+      <div class="header__stats" id="headerStats">
+        <div class="stat-pill" id="statFetches" title="Total de consultas">
+          <span class="stat-pill__icon">🔄</span>
+          <span class="stat-pill__val">—</span>
+        </div>
+        <div class="stat-pill" id="statSource" title="Fonte dos dados">
+          <span class="stat-pill__icon">🌐</span>
+          <span class="stat-pill__val">—</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Controls -->
+    <section class="controls">
+      <div class="controls__row">
+        <div class="select-wrap">
+          <label for="categorySelect" class="select-wrap__label">Categoria</label>
+          <select id="categorySelect">
+            <option value="general" selected>🌍 Geral</option>
+            <option value="technology">💻 Tecnologia</option>
+            <option value="business">💼 Negócios</option>
+            <option value="science">🔬 Ciência</option>
+            <option value="health">🏥 Saúde</option>
+            <option value="entertainment">🎬 Entretenimento</option>
+            <option value="sports">⚽ Esportes</option>
+          </select>
+        </div>
+        <div class="select-wrap select-wrap--small">
+          <label for="maxArticles" class="select-wrap__label">Artigos</label>
+          <input type="number" id="maxArticles" value="10" min="1" max="50">
+        </div>
+        <button id="fetchBtn" class="btn-fetch">
+          <span class="btn-fetch__text">Buscar Notícias</span>
+          <span class="btn-fetch__loader" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="controls__info" id="fetchInfo"></div>
+    </section>
+
+    <!-- News Feed -->
+    <main class="feed" id="newsFeed">
+      <div class="feed__empty" id="emptyState">
+        <div class="feed__empty-icon">🗞️</div>
+        <p>Selecione uma categoria e clique em <strong>Buscar Notícias</strong> para receber seu briefing.</p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Daily News Fetcher Agent v1.0.0 — <span id="footerTime"></span></p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

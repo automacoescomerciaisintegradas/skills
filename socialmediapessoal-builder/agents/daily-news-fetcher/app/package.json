@@ -1,0 +1,13 @@
+{
+  "name": "daily-news-fetcher",
+  "version": "1.0.0",
+  "description": "Daily Top News Fetcher — Agent App",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

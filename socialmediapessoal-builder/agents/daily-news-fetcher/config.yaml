@@ -1,0 +1,45 @@
+name: Daily Top News Fetcher
+description: Fetches the top news articles by category every morning with summaries and sources.
+version: 1.0.0
+
+form:
+  fields:
+    - id: category
+      name: News Category
+      type: select
+      required: false
+      default_value: general
+      description: Choose a news category or leave as General for all
+      options:
+        - label: General
+          value: general
+        - label: Technology
+          value: technology
+        - label: Business
+          value: business
+        - label: Science
+          value: science
+        - label: Health
+          value: health
+        - label: Entertainment
+          value: entertainment
+        - label: Sports
+          value: sports
+    - id: max_articles
+      name: Number of Articles
+      type: integer
+      required: false
+      default_value: 10
+      description: How many top articles to fetch (1-50)
+
+memory:
+  persist_fields: [category, max_articles, articles_fetched, fetch_timestamp]
+  aggregations:
+    - field: articles_fetched
+      ops: [sum, avg, count]
+      group_by: [category]
+
+schedule:
+  cron: "0 8 * * *"
+  timezone: America/Sao_Paulo
+  description: Runs daily at 8:00 AM BRT

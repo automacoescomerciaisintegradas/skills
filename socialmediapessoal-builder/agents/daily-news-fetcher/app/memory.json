@@ -1,0 +1,53 @@
+{
+  "fetches": [
+    {
+      "category": "general",
+      "max_articles": 10,
+      "articles_fetched": 10,
+      "fetch_timestamp": "2026-04-11T22:06:54.854Z"
+    },
+    {
+      "category": "general",
+      "max_articles": 9,
+      "articles_fetched": 9,
+      "fetch_timestamp": "2026-04-11T22:10:33.610Z"
+    },
+    {
+      "category": "technology",
+      "max_articles": 9,
+      "articles_fetched": 0,
+      "fetch_timestamp": "2026-04-11T22:11:57.098Z"
+    },
+    {
+      "category": "business",
+      "max_articles": 9,
+      "articles_fetched": 0,
+      "fetch_timestamp": "2026-04-11T22:12:51.733Z"
+    },
+    {
+      "category": "sports",
+      "max_articles": 9,
+      "articles_fetched": 9,
+      "fetch_timestamp": "2026-04-11T22:28:26.664Z"
+    },
+    {
+      "category": "general",
+      "max_articles": 10,
+      "articles_fetched": 10,
+      "fetch_timestamp": "2026-04-11T22:28:42.849Z"
+    },
+    {
+      "category": "technology",
+      "max_articles": 10,
+      "articles_fetched": 10,
+      "fetch_timestamp": "2026-04-11T22:29:32.350Z"
+    },
+    {
+      "category": "sports",
+      "max_articles": 10,
+      "articles_fetched": 10,
+      "fetch_timestamp": "2026-04-11T22:30:39.656Z"
+    }
+  ],
+  "aggregations": {}
+}
