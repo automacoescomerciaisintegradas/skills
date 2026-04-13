@@ -1,38 +1,42 @@
 # 🚀 Cleudocode Metrics: Dashboard de Skills
 
 ## 📊 Estatísticas Atuais
-- **Total de Skills Ativas:** 23
-- **Último Push Sincronizado:** 13/04/2026 06:19:57
+- **Total de Skills Ativas:** 24
+- **Último Push Sincronizado:** 13/04/2026 06:34:05
 - **Estado do Repositório:** Sincronizado via Git
+- **Suporte MCP:** ✅ Habilitado em config.json
 
 ## 🛠️ Todas as Skills Encontradas
-- [ckm-banner-design](ckm-banner-design/) 
-- [ckm-brand](ckm-brand/) 
-- [ckm-design](ckm-design/) 
-- [ckm-design-system](ckm-design-system/) 
-- [ckm-slides](ckm-slides/) 
-- [ckm-ui-styling](ckm-ui-styling/) 
-- [frontend-design](frontend-design/) 
-- [ui-ux-pro-max](ui-ux-pro-max/) 
-- [banner-design](banner-design/) 
-- [brand](brand/) 
-- [design](design/) 
-- [design-system](design-system/) 
-- [slides](slides/) 
-- [ui-styling](ui-styling/) 
-- [ui-ux-pro-max](ui-ux-pro-max/) 
-- [antigravity-rules-planner](antigravity-rules-planner/) 
-- [security-guard](security-guard/) 
-- [skill-creator](skill-creator/) 
-- [socialmediapessoal-builder](socialmediapessoal-builder/) 
-- [daily-news-fetcher](daily-news-fetcher/) 
-- [software-dev-base](software-dev-base/) 
-- [ui-styling-pro](ui-styling-pro/) 
-- [whatsapp-button](whatsapp-button/) 
+| Skill | Status do Manifesto |
+| :--- | :--- |
+- [ckm-banner-design](ckm-banner-design/) | ❌ No Manifest 
+- [ckm-brand](ckm-brand/) | ❌ No Manifest 
+- [ckm-design](ckm-design/) | ❌ No Manifest 
+- [ckm-design-system](ckm-design-system/) | ❌ No Manifest 
+- [ckm-slides](ckm-slides/) | ❌ No Manifest 
+- [ckm-ui-styling](ckm-ui-styling/) | ❌ No Manifest 
+- [frontend-design](frontend-design/) | ❌ No Manifest 
+- [ui-ux-pro-max](ui-ux-pro-max/) | ❌ No Manifest 
+- [banner-design](banner-design/) | ❌ No Manifest 
+- [brand](brand/) | ❌ No Manifest 
+- [design](design/) | ❌ No Manifest 
+- [design-system](design-system/) | ❌ No Manifest 
+- [slides](slides/) | ❌ No Manifest 
+- [ui-styling](ui-styling/) | ❌ No Manifest 
+- [ui-ux-pro-max](ui-ux-pro-max/) | ❌ No Manifest 
+- [antigravity-rules-planner](antigravity-rules-planner/) | ❌ No Manifest 
+- [openapi-generator](openapi-generator/) | ✅ Manifest Ready 
+- [security-guard](security-guard/) | ✅ Manifest Ready 
+- [skill-creator](skill-creator/) | ✅ Manifest Ready 
+- [socialmediapessoal-builder](socialmediapessoal-builder/) | ❌ No Manifest 
+- [daily-news-fetcher](daily-news-fetcher/) | ❌ No Manifest 
+- [software-dev-base](software-dev-base/) | ❌ No Manifest 
+- [ui-styling-pro](ui-styling-pro/) | ❌ No Manifest 
+- [whatsapp-button](whatsapp-button/) | ❌ No Manifest 
 
 
 ## 🛡️ Governança
 Este repositório é gerenciado pelo **Antigravity AI Agent** e segue os protocolos de **Mission-Critical Security**.
 
 ---
-*Gerado automaticamente pelo Skill Creator às 13/04/2026 06:19:57*
+*Gerado automaticamente pelo Skill Creator às 13/04/2026 06:34:05*

@@ -1,0 +1,24 @@
+{
+  "name": "security-guard",
+  "version": "1.0.0",
+  "description": "Sentinela de segurança para bloqueio de comandos perigosos e blindagem de missão crítica.",
+  "license": "MIT",
+  "keywords": ["security", "guard", "protection", "safe-commands"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      {
+        "name": "/check-safety",
+        "description": "Valida um comando contra a lista negra de padrões perigosos."
+      },
+      {
+        "name": "/add-safety-pattern",
+        "description": "Adiciona um novo padrão de Regex à lista de bloqueio dinâmico."
+      }
+    ]
+  }
+}

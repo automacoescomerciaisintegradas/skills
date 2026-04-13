@@ -5,8 +5,10 @@ $currentDate = Get-Date -Format "dd/MM/yyyy HH:mm:ss"
 
 $skillsList = ""
 foreach ($s in $skills) {
-    if ($s.Directory.Name -ne "skills") { # Evita pastas aninhadas confusas se necessário
-        $skillsList += "- [" + $s.Directory.Name + "](" + $s.Directory.Name + "/) `n"
+    if ($s.Directory.Name -ne "skills") {
+        $hasManifest = Test-Path (Join-Path $s.Directory.FullName "manifest.json")
+        $manifestStatus = if ($hasManifest) { "✅ Manifest Ready" } else { "❌ No Manifest" }
+        $skillsList += "- [" + $s.Directory.Name + "](" + $s.Directory.Name + "/) | $manifestStatus `n"
     }
 }
 
@@ -17,8 +19,11 @@ $readmeContent = @"
 - **Total de Skills Ativas:** $skillCount
 - **Último Push Sincronizado:** $currentDate
 - **Estado do Repositório:** Sincronizado via Git
+- **Suporte MCP:** ✅ Habilitado em config.json
 
 ## 🛠️ Todas as Skills Encontradas
+| Skill | Status do Manifesto |
+| :--- | :--- |
 $skillsList
 
 ## 🛡️ Governança
@@ -29,4 +34,4 @@ Este repositório é gerenciado pelo **Antigravity AI Agent** e segue os protoco
 "@
 
 Set-Content -Path "c:\antigravity\skills\README.md" -Value $readmeContent
-Write-Output "README.md gerado com lista completa de $skillCount skills."
+Write-Output "README.md gerado com lista completa de $skillCount skills e status dos manifestos."
