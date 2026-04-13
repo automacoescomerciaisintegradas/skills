@@ -1,8 +1,8 @@
 # 🚀 Cleudocode Metrics: Dashboard de Skills
 
 ## 📊 Estatísticas Atuais
-- **Total de Skills Ativas:** 27
-- **Último Push Sincronizado:** 13/04/2026 07:57:37
+- **Total de Skills Ativas:** 28
+- **Último Push Sincronizado:** 13/04/2026 08:14:05
 - **Estado do Repositório:** Sincronizado via Git
 - **Suporte MCP:** ✅ Habilitado em config.json
 
@@ -24,6 +24,7 @@
 - [slides](slides/) | ❌ No Manifest 
 - [ui-styling](ui-styling/) | ❌ No Manifest 
 - [ui-ux-pro-max](ui-ux-pro-max/) | ❌ No Manifest 
+- [aci-design-system](aci-design-system/) | ✅ Manifest Ready 
 - [agentic-funnel-architect](agentic-funnel-architect/) | ✅ Manifest Ready 
 - [antigravity-rules-planner](antigravity-rules-planner/) | ✅ Manifest Ready 
 - [openapi-generator](openapi-generator/) | ✅ Manifest Ready 
@@ -42,4 +43,4 @@
 Este repositório é gerenciado pelo **Antigravity AI Agent** e segue os protocolos de **Mission-Critical Security**.
 
 ---
-*Gerado automaticamente pelo Skill Creator às 13/04/2026 07:57:37*
+*Gerado automaticamente pelo Skill Creator às 13/04/2026 08:14:05*

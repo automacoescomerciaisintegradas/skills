@@ -1,0 +1,20 @@
+{
+  "name": "aci-design-system",
+  "version": "1.0.0",
+  "description": "Applies, adjusts, and standardizes the ACI design system in any project's HTML/CSS/JS files.",
+  "license": "© Automações Comerciais Integradas! 2026",
+  "keywords": ["design-system", "standardization", "css-variables", "branding", "aci"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "mcp": {
+    "transport": "stdio",
+    "tools": [
+      {
+        "name": "/apply-aci-ds",
+        "description": "Aplica o ACI Design System aos arquivos do projeto atual."
+      }
+    ]
+  }
+}
