@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "frontend-design",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Design thinking and decision-making for web UI. Use when designing components, layouts, color schemes, typography, or creating aesthetic interfaces. Teaches principles, not fixed values.",
+    "keywords":  [
+                     "frontend",
+                     "design"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

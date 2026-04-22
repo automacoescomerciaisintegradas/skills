@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "bash-linux",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Bash/Linux terminal patterns. Critical commands, piping, error handling, scripting. Use when working on macOS or Linux systems.",
+    "keywords":  [
+                     "bash",
+                     "linux"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

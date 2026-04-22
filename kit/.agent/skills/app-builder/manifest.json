@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "app-builder",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Main application building orchestrator. Creates full-stack applications from natural language requests. Determines project type, selects tech stack, coordinates agents.",
+    "keywords":  [
+                     "app",
+                     "builder"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

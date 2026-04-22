@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "tailwind-patterns",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Tailwind CSS v4 principles. CSS-first configuration, container queries, modern patterns, design token architecture.",
+    "keywords":  [
+                     "tailwind",
+                     "patterns"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

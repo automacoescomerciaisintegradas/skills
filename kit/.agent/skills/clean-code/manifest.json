@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "clean-code",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Pragmatic coding standards - concise, direct, no over-engineering, no unnecessary comments",
+    "keywords":  [
+                     "clean",
+                     "code"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

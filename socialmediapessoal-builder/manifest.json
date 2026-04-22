@@ -1,20 +1,20 @@
-{
-  "name": "socialmediapessoal-builder",
-  "version": "1.0.0",
-  "description": "Automação para criação de landing pages e estruturas de marketing para branding pessoal.",
-  "license": "MIT",
-  "keywords": ["marketing", "landing-page", "branding"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/automacoescomerciaisintegradas/skills"
-  },
-  "mcp": {
-    "transport": "stdio",
-    "tools": [
-      {
-        "name": "/create-lp-structure",
-        "description": "Gera os arquivos básicos para uma Landing Page premium."
-      }
-    ]
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "socialmediapessoal-builder",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Agentic skill for socialmediapessoal-builder",
+    "keywords":  [
+                     "socialmediapessoal",
+                     "builder"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
 }

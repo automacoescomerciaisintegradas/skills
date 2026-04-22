@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "i18n-localization",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Internationalization and localization patterns. Detecting hardcoded strings, managing translations, locale files, RTL support.",
+    "keywords":  [
+                     "i18n",
+                     "localization"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

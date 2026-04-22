@@ -1,28 +1,21 @@
-{
-  "name": "social-flow-meta",
-  "version": "1.0.0",
-  "description": "Meta Operations Control Plane for agencies and ops teams. Managing FB, IG, and WhatsApp workflows.",
-  "license": "MIT",
-  "keywords": ["meta", "facebook", "instagram", "whatsapp", "ads", "automation"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/automacoescomerciaisintegradas/skills"
-  },
-  "mcp": {
-    "transport": "stdio",
-    "tools": [
-      {
-        "name": "/social-auth-status",
-        "description": "Check Meta API connection status"
-      },
-      {
-        "name": "/social-limits-check",
-        "description": "Monitor Meta API rate limits"
-      },
-      {
-        "name": "/social-query-pages",
-        "description": "List managed Facebook pages"
-      }
-    ]
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "social-flow-meta",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Plano de controle para operaÃ§Ãµes Meta (Facebook, Instagram, WhatsApp). Gerencia tokens, limites de taxa e execuÃ§Ã£o de comandos via Social Flow CLI.",
+    "keywords":  [
+                     "social",
+                     "flow",
+                     "meta"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
 }

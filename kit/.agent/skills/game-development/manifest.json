@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "game-development",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Game development orchestrator. Routes to platform-specific skills based on project needs.",
+    "keywords":  [
+                     "game",
+                     "development"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

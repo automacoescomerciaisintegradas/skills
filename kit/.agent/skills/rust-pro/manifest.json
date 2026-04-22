@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "rust-pro",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Master Rust 1.75+ with modern async patterns, advanced type system",
+    "keywords":  [
+                     "rust",
+                     "pro"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

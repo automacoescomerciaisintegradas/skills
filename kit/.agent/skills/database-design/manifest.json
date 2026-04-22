@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "database-design",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.",
+    "keywords":  [
+                     "database",
+                     "design"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

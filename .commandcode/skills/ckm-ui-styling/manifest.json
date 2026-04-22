@@ -1,0 +1,21 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "ckm-ui-styling",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "UI builder: shadcn/ui (Radix), Tailwind CSS, Canvas design. Actions: build UIs, forms, tables, responsive layouts, dark mode, design systems.",
+    "keywords":  [
+                     "ckm",
+                     "ui",
+                     "styling"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

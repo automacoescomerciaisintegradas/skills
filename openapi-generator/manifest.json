@@ -1,24 +1,20 @@
-{
-  "name": "openapi-generator",
-  "version": "1.0.0",
-  "description": "Generates OpenAPI 3.0 specs from TypeScript interfaces",
-  "license": "MIT",
-  "keywords": ["openapi", "typescript", "backend"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/automacoescomerciaisintegradas/skills"
-  },
-  "mcp": {
-    "transport": "stdio",
-    "tools": [
-      {
-        "name": "generate-from-file",
-        "description": "Generate OpenAPI spec from TypeScript file"
-      },
-      {
-        "name": "generate-from-code",
-        "description": "Generate OpenAPI spec from raw TypeScript code"
-      }
-    ]
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "openapi-generator",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Generates OpenAPI 3.0 specifications from TypeScript interfaces",
+    "keywords":  [
+                     "openapi",
+                     "generator"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
 }

@@ -1,0 +1,22 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "ui-ux-pro-max",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "UI/UX design intelligence. 50+ styles, 161 palettes, 57 fonts, 161 products, 99 UX rules, 25 charts across 10 stacks. Actions: plan, build, design, review, fix, optimize UI/UX. Includes shadcn/ui integration.",
+    "keywords":  [
+                     "ui",
+                     "ux",
+                     "pro",
+                     "max"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

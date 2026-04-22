@@ -1,20 +1,20 @@
-{
-  "name": "parallax-hero",
-  "version": "1.0.0",
-  "description": "Cinematic and premium Parallax Hero component for high-impact landing pages.",
-  "license": "Custom - © Automações Comerciais Integradas! 2026",
-  "keywords": ["parallax", "hero", "cinematic", "premium", "design-system"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/automacoescomerciaisintegradas/skills"
-  },
-  "mcp": {
-    "transport": "stdio",
-    "tools": [
-      {
-        "name": "/create-parallax-hero",
-        "description": "Gera o código React/Tailwind/GSAP para o componente ParallaxHero."
-      }
-    ]
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "parallax-hero",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Componente cinematogrÃ¡fico premium com efeitos parallax, suporte a vÃ­deo e design system moderno para landing pages de alto impacto.",
+    "keywords":  [
+                     "parallax",
+                     "hero"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
 }

@@ -1,0 +1,21 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "ckm-banner-design",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Banner builder: Social, Ads, Hero, Print. Art styles + AI visuals. Actions: design, create, generate banner.",
+    "keywords":  [
+                     "ckm",
+                     "banner",
+                     "design"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

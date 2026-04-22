@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "ckm-brand",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Brand engine: voice, visual identity, consistency, guidelines. Actions: update, review, create brand assets.",
+    "keywords":  [
+                     "ckm",
+                     "brand"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

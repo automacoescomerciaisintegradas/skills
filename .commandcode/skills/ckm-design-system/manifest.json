@@ -1,0 +1,21 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "ckm-design-system",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Token arch (Primitiveâ†’Semanticâ†’Component), CSS vars, and slide builder. Actions: manage tokens, build brand-compliant presentations.",
+    "keywords":  [
+                     "ckm",
+                     "design",
+                     "system"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

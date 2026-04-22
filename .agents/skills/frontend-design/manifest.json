@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "frontend-design",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "High-end frontend builder. Focus: distinctive, production-grade UIs, non-generic aesthetics, creative code, bold design. Actions: build components, pages, posters, apps.",
+    "keywords":  [
+                     "frontend",
+                     "design"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

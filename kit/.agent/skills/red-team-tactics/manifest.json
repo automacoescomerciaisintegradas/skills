@@ -1,0 +1,21 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "red-team-tactics",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Red team tactics principles based on MITRE ATT\u0026CK. Attack phases, detection evasion, reporting.",
+    "keywords":  [
+                     "red",
+                     "team",
+                     "tactics"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

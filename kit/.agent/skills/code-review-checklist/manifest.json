@@ -1,0 +1,21 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "code-review-checklist",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Code review guidelines covering code quality, security, and best practices.",
+    "keywords":  [
+                     "code",
+                     "review",
+                     "checklist"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

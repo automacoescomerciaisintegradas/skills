@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "ckm-slides",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Strategic HTML decks: Chart.js, design tokens, copywriting. Actions: create presentations.",
+    "keywords":  [
+                     "ckm",
+                     "slides"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

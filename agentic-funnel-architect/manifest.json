@@ -1,28 +1,21 @@
-{
-  "name": "agentic-funnel-architect",
-  "version": "1.0.0",
-  "description": "Orchestrates sales funnels by connecting landing pages, tracking, and social messaging automations.",
-  "license": "MIT",
-  "keywords": ["funnel", "sales", "orchestration", "marketing-automation"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/automacoescomerciaisintegradas/skills"
-  },
-  "mcp": {
-    "transport": "stdio",
-    "tools": [
-      {
-        "name": "/funnel-init",
-        "description": "Initialize a new sales funnel structure"
-      },
-      {
-        "name": "/funnel-stitch-wa",
-        "description": "Connect WhatsApp button to a page"
-      },
-      {
-        "name": "/funnel-inject-tracking",
-        "description": "Inject tracking pixels (Meta/Google)"
-      }
-    ]
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "agentic-funnel-architect",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Orquestrador de funis de vendas de alta conversÃ£o. Integra Landing Pages, BotÃµes de WhatsApp, Pixel de Rastreamento e AutomaÃ§Ã£o Meta.",
+    "keywords":  [
+                     "agentic",
+                     "funnel",
+                     "architect"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
 }

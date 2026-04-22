@@ -1,0 +1,20 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "geo-fundamentals",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Generative Engine Optimization for AI search engines (ChatGPT, Claude, Perplexity).",
+    "keywords":  [
+                     "geo",
+                     "fundamentals"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
+}

@@ -1,24 +1,21 @@
-{
-  "name": "software-dev-base",
-  "version": "1.0.0",
-  "description": "Base de conhecimento e automação para padrões de desenvolvimento, arquitetura REST e testes automatizados.",
-  "license": "MIT",
-  "keywords": ["development", "standard", "architecture", "rest"],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/automacoescomerciaisintegradas/skills"
-  },
-  "mcp": {
-    "transport": "stdio",
-    "tools": [
-      {
-        "name": "/init-dev-structure",
-        "description": "Cria a estrutura de pastas seguindo as boas práticas."
-      },
-      {
-        "name": "/gen-standard-test",
-        "description": "Gera arquivos de teste segmentados."
-      }
-    ]
-  }
+﻿{
+    "version":  "1.0.0",
+    "name":  "software-dev-base",
+    "mcp":  {
+                "tools":  [
+
+                          ],
+                "transport":  "stdio"
+            },
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/automacoescomerciaisintegradas/skills"
+                   },
+    "description":  "Agentic skill for software-dev-base",
+    "keywords":  [
+                     "software",
+                     "dev",
+                     "base"
+                 ],
+    "license":  "Â© AutomaÃ§Ãµes Comerciais Integradas! 2026"
 }
