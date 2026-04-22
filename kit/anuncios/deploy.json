@@ -1,0 +1,15 @@
+{
+  "sourceDir": "anuncios",
+  "campaignName": "MetaAds | Agent Test | Abril 2026",
+  "adSetName": "Conjunto Teste | BR",
+  "objective": "OUTCOME_TRAFFIC",
+  "dailyBudget": 15000,
+  "destinationUrl": "https://example.com/oferta",
+  "primaryText": "Teste de Agentic Workflow com Prompt Engineering.",
+  "headline": "IA no Controle do Trafego",
+  "description": "Vibe Coding at its best.",
+  "cta": "LEARN_MORE",
+  "countries": ["BR"],
+  "mode": "DRAFT",
+  "dryRun": true
+}

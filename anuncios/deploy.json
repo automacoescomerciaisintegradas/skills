@@ -1,0 +1,9 @@
+{
+  "campaignName": "Campanha Agentica Teste",
+  "objective": "OUTCOME_TRAFFIC",
+  "adSetName": "AdSet IA - Público Aberto",
+  "dailyBudget": 5000,
+  "primaryText": "Automação Comercial Integrada com IA",
+  "destinationUrl": "https://automacoescomerciais.com",
+  "sourceDir": "anuncios/criativos"
+}

@@ -1,0 +1,76 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "c:/antigravity/skills"
+      ]
+    },
+    "supabase": {
+      "url": "https://mcp.supabase.com/mcp?project_ref=udzptgbcgzcibhbipnur"
+    },
+    "redis": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-redis",
+        "redis://default:dwtSJqIPVNCKDwvLWz4J@app.iau2.com.br:6379/0"
+      ]
+    },
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgres:PAGIA_PASSWORD_PLACEHOLDER@db.udzptgbcgzcibhbipnur.supabase.co:5432/postgres"
+      ]
+    },
+    "playwright-extension": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--extension"
+      ]
+    },
+    "n8n-mcp": {
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", ".kiro/settings/docker-ssh.ps1",
+        "run",
+        "-i",
+        "--rm",
+        "--init",
+        "-e", "MCP_MODE=stdio",
+        "-e", "LOG_LEVEL=error",
+        "-e", "DISABLE_CONSOLE_OUTPUT=true",
+        "-e", "N8N_API_URL=https://n8n.iau2.com.br",
+        "-e", "N8N_API_KEY=${N8N_API_KEY}",
+        "ghcr.io/czlonkowski/n8n-mcp:latest"
+      ]
+    },
+    "web-reader": {
+      "type": "http",
+      "url": "https://open.bigmodel.cn/api/mcp/web_reader/mcp",
+      "headers": {
+        "Authorization": "4920bbfac8844e74a3bd212f5c51d315.G5JdcUDYGhMvhVzX"
+      }
+    },
+    "stitch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "stitch-mcp-auto"
+      ]
+    },
+    "notebooklm": {
+      "command": "c:/antigravity/notebooklm-mcp/venv/Scripts/python.exe",
+      "args": [
+        "c:/antigravity/notebooklm-mcp/mcp_server/server.py"
+      ]
+    }
+  }
+}
