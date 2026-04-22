@@ -1,0 +1,42 @@
+# 🚀 ESTRATÉGIA DE PUBLICAÇÃO - ANTIGRAVITY SECURITY
+
+## 📸 INSTAGRAM (Carrossel)
+
+### Legenda:
+Você sabia que um .gitignore mal configurado pode custar o seu projeto? 🚨⚓
+
+No desenvolvimento de IA Agentic, o risco é dobrado. Além dos arquivos tradicionais, temos cookies de sessão, configurações de servidores MCP e outputs de áudio que nunca deveriam sair da sua máquina local.
+
+Hoje, no ecossistema Antigravity, implementamos um novo padrão de segurança:
+
+1️⃣ Blindagem de Segredos: Bloqueio exaustivo de .env, .pem, .key e qualquer padrão de credencial.
+2️⃣ Foco em IA: Regras específicas para NotebookLM e MCP Servers, protegendo seus tokens de integração.
+3️⃣ Skill de Governança: Criamos a git-security-pro, um agente que audita o repositório e garante que a segurança seja automática, não manual.
+
+Segurança não é apenas sobre senhas, é sobre arquitetura de defesa. 🛡️🧠
+
+Seu repositório está realmente protegido ou você está a um git push do desastre? Comente "GOV" para saber mais sobre nossos padrões de governança.
+
+#AntigravityAI #CyberSecurity #Git #SoftwareEngineering #IA #Python #GitHub #CodingLife #Automacao
+
+---
+
+## 🐦 X (TWITTER) - THREAD
+
+Tweet 1/6:
+🚨 O erro mais comum (e caro) ao desenvolver com LLMs e Agentes: commitar sua .env ou chaves de API acidentalmente. Com o aumento do uso de MCP Servers e ferramentas locais, o risco de exposição de tokens cresceu exponencialmente. 🧵
+
+Tweet 2/6:
+Hoje no ecossistema Antigravity, elevamos o nível. Implementamos um .gitignore ultra-seguro que vai muito além do básico node_modules. Dividimos em camadas críticas para garantir que nenhum rastro sensível chegue ao GitHub. 🛡️⚓
+
+Tweet 3/6:
+Camada 1: O Óbvio e o Oculto. Além de __pycache__ e venv/, estamos bloqueando padrões específicos de ambientes de pesquisa, como cookies de sessão do NotebookLM e outputs de áudio/PDF gerados por agentes. Nada de arquivos temporários poluindo o repo.
+
+Tweet 4/6:
+Camada 2: Proteção MCP & NotebookLM 🤖. Servidores MCP podem guardar tokens de transporte em arquivos de configuração locais. Nosso novo padrão ignora automaticamente arquivos como .mcp.json e config/app_config.json, protegendo suas integrações.
+
+Tweet 5/6:
+Camada 3: Skill de Governança 🛠️. Para não depender da memória humana, criamos a skill git-security-pro. Ela audita o repositório em tempo real em busca de arquivos não rastreados que deveriam estar no ignore e aplica o template mestre.
+
+Tweet 6/6:
+Segurança não é um produto, é um processo. Se você trabalha com IA Agentic, sua primeira linha de defesa é um .gitignore que entende o seu stack de IA. O código da nossa skill e o template completo estão na nossa Wiki interna. 🎯🔥 #AI #Security

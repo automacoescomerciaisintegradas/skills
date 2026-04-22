@@ -18,7 +18,7 @@ Este arquivo é o índice baseado em conteúdo da wiki. O LLM deve ler isto prim
 
 ## Contagens
 
-- resumo de fonte: 6
+- resumo de fonte: 7
 - página de conceito: 3
 - página de entidade: 1
 - página de síntese: 0
@@ -37,6 +37,7 @@ Este arquivo é o índice baseado em conteúdo da wiki. O LLM deve ler isto prim
 - [2026-04-22_source-claude-cortex-update.md](./sources/2026-04-22_source-claude-cortex-update.md): Atualização Claude Sonnet 4.6 no Snowflake Cortex. Última atualização: 2026-04-22
 - [2026-04-22_source-antigravity-vulnerability.md](./sources/2026-04-22_source-antigravity-vulnerability.md): Correção de vulnerabilidade no Antigravity AI. Última atualização: 2026-04-22
 - [2026-04-22_source-karpathy-microgpt.md](./sources/2026-04-22_source-karpathy-microgpt.md): MicroGPT - GPT em 200 linhas de Python. Última atualização: 2026-04-22
+- [2026-04-22_source-instagram-robots-txt.md](./sources/2026-04-22_source-instagram-robots-txt.md): Políticas de Automação do Instagram (robots.txt). Última atualização: 2026-04-22
 
 ## Conceitos
 
