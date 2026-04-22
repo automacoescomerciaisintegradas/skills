@@ -25,8 +25,8 @@ parametros:
 O **Botão WhatsApp Floating** é uma solução de alta performance para conversão.
 
 ## 🚀 Exemplos
-- `/gerar-botao-whatsapp numero="5511987654321" mensagem="Olá!"`
-- `/configurar-whatsapp-wp numero="5511987654321"`
+- `/gerar-botao-whatsapp numero="5588921567214" mensagem="Olá!"`
+- `/configurar-whatsapp-wp numero="5588921567214"`
 
 ## 🎨 Especificações
 - **Animações**: Efeito Pulse (keyframe).
