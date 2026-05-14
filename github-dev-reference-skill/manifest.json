@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "github-dev-reference-skill",
+  "mcp": {
+    "tools": [],
+    "transport": "stdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "description": "Skill gerada automaticamente a partir de links colados para extrair padrões de implementação.",
+  "keywords": [
+    "github",
+    "css",
+    "reference",
+    "dev",
+    "automation"
+  ],
+  "license": "© Automações Comerciais Integradas! 2026"
+}
