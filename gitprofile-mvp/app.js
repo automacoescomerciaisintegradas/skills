@@ -5,6 +5,10 @@ import {
   topRepositories,
   computeProfileScore,
   relativeDate,
+  collectRepoSignals,
+  computeBenchmark,
+  deriveBadges,
+  buildInsights,
 } from './src/core.js';
 
 const els = {
@@ -14,10 +18,13 @@ const els = {
   portfolio: document.getElementById('portfolio'),
   hero: document.getElementById('heroCard'),
   score: document.getElementById('scoreCard'),
+  benchmark: document.getElementById('benchmarkCard'),
+  badges: document.getElementById('badgesCard'),
   stats: document.getElementById('statsCard'),
   languages: document.getElementById('languagesCard'),
   repos: document.getElementById('reposCard'),
   activity: document.getElementById('activityCard'),
+  insights: document.getElementById('insightsCard'),
   copyLinkBtn: document.getElementById('copyLinkBtn'),
   exportBtn: document.getElementById('exportBtn'),
   openGitHubBtn: document.getElementById('openGitHubBtn'),
@@ -111,6 +118,33 @@ function renderScore(user, repos) {
       <span class="score-label">Creator Score</span>
       <strong>${score}</strong>
       <span class="tier">${tier} · ${quality}</span>
+    </div>
+  `;
+}
+
+function renderBenchmark(user, repos) {
+  const { score } = computeProfileScore(user, repos);
+  const { percentile, cohort } = computeBenchmark(score);
+  const metrics = collectRepoSignals(repos);
+  const freshness = metrics.total ? Math.round((metrics.updated90d / metrics.total) * 100) : 0;
+
+  els.benchmark.innerHTML = `
+    <h3>Benchmark</h3>
+    <div class="benchmark-grid">
+      <div class="metric"><span class="label">Percentil estimado</span><strong>P${percentile}</strong></div>
+      <div class="metric"><span class="label">Coorte</span><strong>${cohort}</strong></div>
+      <div class="metric"><span class="label">Freshness</span><strong>${freshness}%</strong></div>
+      <div class="metric"><span class="label">Projetos ativos</span><strong>${metrics.activeOriginal}</strong></div>
+    </div>
+  `;
+}
+
+function renderBadges(user, repos) {
+  const badges = deriveBadges(user, repos);
+  els.badges.innerHTML = `
+    <h3>Badges</h3>
+    <div class="badge-list">
+      ${badges.map((b) => `<span class="badge">${b.label}</span>`).join('')}
     </div>
   `;
 }
@@ -233,13 +267,26 @@ function renderActivity(events) {
   `;
 }
 
+function renderInsights(user, repos) {
+  const insights = buildInsights(user, repos);
+  els.insights.innerHTML = `
+    <h3>Insights acionaveis</h3>
+    <ul class="insight-list">
+      ${insights.map((i) => `<li>${i}</li>`).join('')}
+    </ul>
+  `;
+}
+
 function renderAll() {
   renderHero(state.user, state.repos);
   renderScore(state.user, state.repos);
+  renderBenchmark(state.user, state.repos);
+  renderBadges(state.user, state.repos);
   renderStats(state.user, state.repos);
   renderLanguages(state.repos);
   renderRepos(state.repos);
   renderActivity(state.events);
+  renderInsights(state.user, state.repos);
 }
 
 async function fetchGitHubProfile(username) {

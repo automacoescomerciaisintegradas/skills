@@ -8,6 +8,10 @@ import {
   topRepositories,
   computeProfileScore,
   relativeDate,
+  collectRepoSignals,
+  computeBenchmark,
+  deriveBadges,
+  buildInsights,
 } from '../src/core.js';
 
 test('extractUsername handles plain username', () => {
@@ -68,4 +72,44 @@ test('relativeDate handles invalid and valid inputs', () => {
   assert.equal(relativeDate('not-a-date'), 'Data invalida');
   const nowIso = new Date().toISOString();
   assert.equal(relativeDate(nowIso).includes('atras'), true);
+});
+
+test('collectRepoSignals aggregates repository indicators', () => {
+  const repos = [
+    { stargazers_count: 2, forks_count: 1, watchers_count: 3, archived: false, fork: false, updated_at: new Date().toISOString() },
+    { stargazers_count: 5, forks_count: 0, watchers_count: 1, archived: true, fork: true, updated_at: '2020-01-01T00:00:00Z' },
+  ];
+  const m = collectRepoSignals(repos);
+  assert.equal(m.total, 2);
+  assert.equal(m.stars, 7);
+  assert.equal(m.archived, 1);
+  assert.equal(m.forkRepos, 1);
+});
+
+test('computeBenchmark returns bounded percentile and cohort', () => {
+  const low = computeBenchmark(10);
+  const high = computeBenchmark(95);
+  assert.equal(low.percentile >= 1 && low.percentile <= 99, true);
+  assert.equal(high.percentile >= low.percentile, true);
+  assert.equal(typeof high.cohort, 'string');
+});
+
+test('deriveBadges and buildInsights return non-empty arrays', () => {
+  const user = { followers: 10, public_repos: 12, bio: '', blog: '' };
+  const repos = Array.from({ length: 12 }, (_, i) => ({
+    language: i % 2 === 0 ? 'TypeScript' : 'Python',
+    stargazers_count: 1,
+    forks_count: 0,
+    watchers_count: 0,
+    archived: false,
+    fork: false,
+    updated_at: '2020-01-01T00:00:00Z',
+  }));
+
+  const badges = deriveBadges(user, repos);
+  const insights = buildInsights(user, repos);
+  assert.equal(Array.isArray(badges), true);
+  assert.equal(Array.isArray(insights), true);
+  assert.equal(badges.length > 0, true);
+  assert.equal(insights.length > 0, true);
 });
