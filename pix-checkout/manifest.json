@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "pix-checkout",
+  "mcp": {
+    "tools": [],
+    "transport": "stdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "description": "Skill reutilizável para checkout de pagamento via PIX com payload, webhook e fallback manual.",
+  "keywords": [
+    "pix",
+    "checkout",
+    "payment",
+    "gateway",
+    "manual-pix"
+  ],
+  "license": "© Automações Comerciais Integradas! 2026"
+}
