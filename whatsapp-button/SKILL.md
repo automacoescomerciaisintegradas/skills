@@ -8,7 +8,7 @@ descricao: Gera o código HTML/CSS completo para um botão flutuante personaliz�
 parametros:
   - nome: numero
     tipo: string
-    descricao: Número do WhatsApp com DDI e DDD (ex: 5588921567214).
+    descricao: Número do WhatsApp com DDI e DDD (ex: 5541992062238).
   - nome: mensagem
     tipo: string
     descricao: Mensagem inicial pré-preenchida para o chat.
@@ -20,13 +20,17 @@ parametros:
     tipo: string
     descricao: Número do WhatsApp que receberá os contatos.
 
+link_padrao_modal:
+  url: https://api.whatsapp.com/send?phone=5541992062238
+  observacao: Usar este link como destino padrão no botão/modal de WhatsApp.
+
 # Documentação: Botão WhatsApp Floating
 
 O **Botão WhatsApp Floating** é uma solução de alta performance para conversão.
 
 ## 🚀 Exemplos
-- `/gerar-botao-whatsapp numero="5588921567214" mensagem="Olá!"`
-- `/configurar-whatsapp-wp numero="5588921567214"`
+- `/gerar-botao-whatsapp numero="5541992062238" mensagem="Olá!"`
+- `/configurar-whatsapp-wp numero="5541992062238"`
 
 ## 🎨 Especificações
 - **Animações**: Efeito Pulse (keyframe).
