@@ -1,0 +1,6 @@
+{
+  "name": "deploy-estatico-html-css-js",
+  "version": "1.0.0",
+  "description": "Fluxo de deploy estatico DEV/PROD para HTML/CSS/JS sem Actions",
+  "entry": "SKILL.md"
+}
