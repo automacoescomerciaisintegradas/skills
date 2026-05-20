@@ -1,0 +1,9 @@
+{
+  "name": "skill-supermemory",
+  "version": "0.1.0",
+  "main": "skill.js",
+  "type": "module",
+  "dependencies": {
+    "supermemory": "^4.21.1"
+  }
+}

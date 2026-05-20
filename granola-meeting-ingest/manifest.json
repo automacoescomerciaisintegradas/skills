@@ -1,0 +1,35 @@
+{
+    "version": "1.0.0",
+    "name": "granola-meeting-ingest",
+    "description": "Ingere e estrutura notas de reunião do Granola em contexto acionável: action items, decisões, resumos e memória persistente.",
+    "mcp": {
+        "tools": [],
+        "transport": "stdio"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/automacoescomerciaisintegradas/skills"
+    },
+    "keywords": [
+        "meeting",
+        "granola",
+        "ingest",
+        "notes",
+        "action-items",
+        "memory",
+        "productivity",
+        "automation"
+    ],
+    "integrations": [
+        "skill-supermemory",
+        "whatsapp-button",
+        "wiki-kit"
+    ],
+    "commands": [
+        "/ingest-granola",
+        "/extract-action-items",
+        "/meeting-summary",
+        "/search-meetings"
+    ],
+    "license": "© Automações Comerciais Integradas! 2026"
+}
