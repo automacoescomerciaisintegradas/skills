@@ -16,3 +16,6 @@ Snapshot importado de:
 
 ## Observação
 Este pacote é um espelho para consulta e adaptação. Para customizações internas, crie arquivos derivados fora de `upstream/`.
+
+- system-prompts/ (acesso direto) -> mesma coleção de prompts para navegação rápida
+
