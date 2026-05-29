@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "claude-code-system-prompts",
+  "description": "Mirror package of Claude Code system prompts from Piebald-AI for study and internal adaptation.",
+  "mcp": {
+    "tools": [],
+    "transport": "stdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "keywords": [
+    "claude-code",
+    "system-prompts",
+    "agent-prompts",
+    "tools",
+    "skills"
+  ],
+  "license": "MIT (upstream)"
+}
