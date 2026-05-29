@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "plan-mode-readonly",
+  "description": "Architectural planning skill in strict read-only mode for implementation strategy design.",
+  "mcp": {
+    "tools": [],
+    "transport": "stdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "keywords": [
+    "planning",
+    "architecture",
+    "readonly",
+    "implementation-plan"
+  ],
+  "license": "© Automações Comerciais Integradas 2026"
+}
+
