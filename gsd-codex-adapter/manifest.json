@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "gsd-codex-adapter",
+  "description": "Adapter skill with GSD Codex agents converted from Claude agent definitions.",
+  "mcp": {
+    "tools": [],
+    "transport": "stdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/automacoescomerciaisintegradas/skills"
+  },
+  "keywords": [
+    "gsd",
+    "codex",
+    "adapter",
+    "claude-migration"
+  ],
+  "license": "© Automações Comerciais Integradas 2026"
+}
