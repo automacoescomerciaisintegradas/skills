@@ -16,7 +16,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-redis",
-        "redis://default:dwtSJqIPVNCKDwvLWz4J@app.iau2.com.br:6379/0"
+        "redis://default:REDIS_PASSWORD_PLACEHOLDER@app.iau2.com.br:6379/0"
       ]
     },
     "postgres": {
@@ -56,7 +56,7 @@
       "type": "http",
       "url": "https://open.bigmodel.cn/api/mcp/web_reader/mcp",
       "headers": {
-        "Authorization": "4920bbfac8844e74a3bd212f5c51d315.G5JdcUDYGhMvhVzX"
+        "Authorization": "BIGMODEL_API_KEY_PLACEHOLDER"
       }
     },
     "stitch": {
